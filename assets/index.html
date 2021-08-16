@@ -7,98 +7,140 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous">
+    </script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>GYM</title>
+    <title>TRIBO FITNESS</title>
 </head>
 
-<body class="bg-secondary bg-gradient">
+<body class="bg-dark bg-gradient">
     <header>
         <a href="index.html">
-            <h1 class="text-uppercase" id="logo">Star Gym</h1>
+            <h1 class="text-uppercase" id="logo">
+                Tribo Fitness
+            </h1>
         </a>
         <nav>
-            <ul id="menu">
-                <li>
-                    <a href="index.html">
-                        <h4 class="text-uppercase">Home</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="classes.html">
-                        <h4 class="text-uppercase">Classes</h4>
-                    </a>
-                </li>
-                <li>
-                    <a href="joinnow.html">
-                        <h4 class="text-uppercase">Join Now</h4>
-                    </a>
-                </li>
-            </ul>
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li>
+                        <a href="index.html" class="dropdown-item">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="classes.html" class="dropdown-item">
+                            Classes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="joinnow.html" class="dropdown-item">
+                            Join Now
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <!-----Menu without sanduich-->
+
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">
+                            <h4 class="text-uppercase">Home</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="classes.html">
+                            <h4 class="text-uppercase">Classes</h4>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="joinnow.html">
+                            <h4 class="text-uppercase">Join Now</h4>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </nav>
 
     </header>
 
     <section>
         <div class="banner">
-            <div id="gym-banner"></div>
+            <div class="row">
+                <div class="col-sm-3 col-md-6 col-lg-12">
+                    <div id="gym-banner">
+                        <img src="C:\Users\bruno\Desktop\workspace\gym-project\assets\img\tribowhite.png"
+                            class="img-fluid" alt="img-logo">
+
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
+
     <footer>
-        <footer>
-            <div class="footer-container">
-
-                <div class="footer-heading footer-1">
-                    <h2><strong>Contact Information</strong></h2>
-                    <p><i class="fas fa-phone-square-alt"></i> +44 555 123 456</p>
-                    <a href="mailto: joinus@starfit.co.uk"><i class="fas fa-envelope"></i> joinus@starfit.co.uk</a>
-                </div>
-
-
-                <div class="footer-heading footer-2">
-                    <h2><strong>Do you have any sugestions?</strong></h2>
-                    <textarea rows="3" name="sugestions" id="sugestions" class="form-control" placeholder="Tell us here"
-                        required></textarea>
-                    <div class="form-row text-center">
-                        <div class="col">
-                            <button type="button" class="btn btn-light">Submit</button>
+        <div id="footer-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-lg-8">
+                        <div class="footer-heading footer-1">
+                            <h2><strong>Contact Information</strong></h2>
+                            <p><i class="fas fa-phone-square-alt"></i> +44 555 123 456</p>
+                            <a href="mailto: join-us@tribofitness.co.uk"><i class="fas fa-envelope"></i>
+                                join-us@tribofitness.co.uk</a>
                         </div>
                     </div>
                 </div>
-
-                <div class="footer-heading footer-3">
-                    <h2><strong>Address</strong></h2>
-                    <p><i class="fas fa-map-marker-alt"></i> 108 St Mary St, Cardiff, CF10 1EB</p>
-                    <div class="map"><iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.848134408059!2d-3.1812247840288963!3d51.479301820577874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb1af9dc71b%3A0x1c8008abf8555bef!2s108%20St%20Mary%20St%2C%20Cardiff%20CF10%201DX!5e0!3m2!1sen!2suk!4v1629022171004!5m2!1sen!2suk"
-                            width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-lg-8">
+                        <div class="footer-heading footer-2">
+                            <h2><strong>Do you have any sugestions?</strong></h2>
+                            <textarea rows="3" name="sugestions" id="sugestions" class="form-control"
+                                placeholder="Tell us here" required></textarea>
+                            <div class="form-row text-center">
+                                <div class="col">
+                                    <button type="button" class="btn btn-light">Submit</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-
-
-
+                <div class="row">
+                    <div class="col-sm-6 col-md-3 col-lg-8">
+                        <div class="footer-heading footer-3">
+                            <h2><strong>Address</strong></h2>
+                            <p><i class="fas fa-map-marker-alt"></i> 108 St Mary St, Cardiff, CF10 1EB</p>
+                            <div class="map"><iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.848134408059!2d-3.1812247840288963!3d51.479301820577874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb1af9dc71b%3A0x1c8008abf8555bef!2s108%20St%20Mary%20St%2C%20Cardiff%20CF10%201DX!5e0!3m2!1sen!2suk!4v1629022171004!5m2!1sen!2suk"
+                                    width="350" height="250" style="border:0;" allowfullscreen=""
+                                    loading="lazy"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div>
-                <ul class="social-media">
-                    <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"> </i>
-                    </li>
-                    <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square">
-                            </i>
-                    </li>
-                    <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square">
-                            </i>
-                    </li>
-                    <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram">
-                            </i>
-                    </li>
-                </ul>
-            </div>
-            </div>
-        </footer>
-
+        </div>
     </footer>
+    <ul class="social-media list-inline">
+        <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></li>
+        <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></li>
+        <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></li>
+        <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></li>
+    </ul>
+
+
+
 </body>
 
 </html>

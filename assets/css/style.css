@@ -8,6 +8,7 @@
 
 /*------------- Header */
 
+
 #logo {
     float: left;
     padding: 25px 15px 15px 15px;
@@ -34,20 +35,29 @@ ul li {
 }
 
 
-#menu a {
+.menu {
+    display: block;
+}
+
+.menu a {
     color: #fff;
     text-decoration: none;
 }
 
-#menu h4,
+.menu a:hover {
+    color: aqua;
+}
+
+.dropdown-menu h4,
 #logo {
     line-height: 30px;
 }
 
+.dropdown {
+    display: none;
+}
 
 /*---------- Banner */
-
-
 .banner {
     height: 800px;
     width: 100%;
@@ -58,9 +68,20 @@ ul li {
 
 
 #gym-banner {
-    height: 600px;
+    height: 100%;
     width: 100%;
-    background: url("../img/halter.jpg") no-repeat center center, url("../img/gym3.jpg") no-repeat top left, url("../img/gym4.jpg") no-repeat top right;
+    background: url("../img/dumbbells-row.jpg") no-repeat center center;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+
+}
+
+
+.img-fluid {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
 
 }
 
@@ -70,39 +91,119 @@ ul li {
 
 /*------------ Footer */
 
+#footer-container {
+    padding: 50px 0 60px 0;
+    background: gray;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+
+}
+
+.container {
+    display: inline-flex;
+
+
+}
+
+.footer-heading h2 {
+    margin-bottom: 25px;
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+}
+
 .footer-heading {
-    display: inline-block;
     color: #fff;
-    text-align: left;
+    padding: 20px;
+    display: block;
+
 }
 
 .footer-1 {
-    float: left;
+
+    margin-top: 20px;
+
+}
+
+.footer-1 a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+
+
 }
 
 .footer-2 {
-    padding-top: 10px;
-    margin: 0 auto;
-    max-width: 30%;
-    float: center;
 
+    margin-top: 20px;
 }
-
-.footer-2 h2 {
-
-    text-align: center;
-}
-
 
 .footer-3 {
-    float: right;
+
+    margin-top: 20px;
 }
+
+/*--------- Social media */
 
 .social-media li {
-    display: inline-flex;
-    color: #fff;
+
     text-align: center;
-    font-size: 36px;
+    font-size: 46px;
+
 }
 
-.social-media {}
+.social-media a {
+    color: #fff;
+}
+
+.social-media {
+    display: inline-flex;
+    position: relative;
+    right: 40%;
+    text-decoration: none;
+
+}
+
+
+
+
+
+
+
+/*------ media */
+
+@media only screen and (max-width: 923px) {
+
+
+    .dropdown {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+
+    }
+
+    .dropdown .dropdown-item {
+        color: black;
+
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #gym-banner {
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .footer-container {
+        display: block;
+        text-align: center;
+    }
+
+    .footer-container .footer-2 {
+        display: none;
+    }
+}
