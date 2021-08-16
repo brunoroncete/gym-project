@@ -203,7 +203,20 @@ ul li {
         text-align: center;
     }
 
-    .footer-container .footer-2 {
+
+    .container {
+        display: block;
+
+    }
+
+    .container .footer-2 {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 390px) {
+    .map {
         display: none;
     }
 }
