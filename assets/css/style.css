@@ -70,7 +70,7 @@ ul li {
 #gym-banner {
     height: 100%;
     width: 100%;
-    background: url("https://images.unsplash.com/photo-1612090295951-656aaeac99d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80") no-repeat center center;
+    background: url("../img/bglogo.jpg") no-repeat center center;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
 
