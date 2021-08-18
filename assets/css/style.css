@@ -100,9 +100,9 @@ ul li {
 }
 
 .container {
-    display: inline-flex;
+    display: flex;
     overflow: hidden;
-
+    justify-content: space-between;
 
 }
 
@@ -159,7 +159,7 @@ ul li {
 .social-media {
     display: inline-flex;
     position: relative;
-    right: 40%;
+    right: 45%;
     text-decoration: none;
 
 }
@@ -167,10 +167,11 @@ ul li {
 
 /*--------- cards */
 .card-prices {
-    display: inline-flex;
+    display: flex;
     padding: 50px;
     position: relative;
-    left: 20%;
+    justify-content: space-around;
+
 
 }
 
@@ -218,7 +219,7 @@ ul li {
     }
 
     .footer-container {
-        display: block;
+        display: flex;
         text-align: center;
     }
 
