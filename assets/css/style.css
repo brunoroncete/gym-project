@@ -237,29 +237,60 @@ ul li {
         display: none;
     }
 
-    #carouselExampleCaptions {
-        display: block;
+    #carouselExampleDark {
+        display: flex;
         width: 300px;
         height: 400px;
-        border: 1px solid #fff;
-        position: absolute;
+        align-items: center;
+        overflow: hidden;
+        padding: 50px;
+        align-content: center;
+    }
 
+    #carouselExampleDark h5 {
+        color: white;
+    }
+
+    #carouselExampleDark p {
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 390px) {
+    .map {
+        display: none;
+    }
+
+    .social-media li {
+
+        text-align: center;
+        font-size: 24px;
 
     }
 
-    @media only screen and (max-width: 390px) {
-        .map {
-            display: none;
-        }
+    .sm-area {
+        display: block;
+        justify-content: center;
+        align-content: center;
+    }
+}
 
-        .social-media li {
+/*----------- Classes */
 
-            text-align: center;
-            font-size: 24px;
+#card-classes {
+    display: inline-flex;
+    overflow-x: scroll;
+    max-height: auto;
 
-        }
 
-        .sm-area {
-            display: block;
-            justify-content: center;
-            align-content: center;
+
+}
+
+#card-classes .cardclass {
+
+    height: 650px;
+
+
+
+
+}
