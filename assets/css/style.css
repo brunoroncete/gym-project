@@ -279,8 +279,10 @@ ul li {
 
 #card-classes {
     display: inline-flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     max-height: auto;
+    max-width: 100%;
+    background-color: #fff;
 
 
 
@@ -289,6 +291,7 @@ ul li {
 #card-classes .cardclass {
 
     height: 650px;
+
 
 
 
