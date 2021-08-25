@@ -143,6 +143,11 @@ ul li {
     margin-top: 20px;
 }
 
+.map {
+    width: 100%;
+    height: 250px;
+}
+
 /*--------- Social media */
 
 .social-media li {
@@ -257,9 +262,7 @@ ul li {
 }
 
 @media only screen and (max-width: 390px) {
-    .map {
-        display: none;
-    }
+
 
     .social-media li {
 
