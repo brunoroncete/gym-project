@@ -114,8 +114,9 @@ ul li {
 
 .footer-heading {
     color: #fff;
-    padding: 20px;
+    padding: 0;
     display: block;
+    height: 300px;
 
 }
 
@@ -129,13 +130,16 @@ ul li {
     color: #fff;
     text-align: center;
     text-decoration: none;
-
-
 }
 
 .footer-2 {
 
     margin-top: 20px;
+}
+
+.button-sub {
+    padding: 15px;
+
 }
 
 .footer-3 {
@@ -153,22 +157,29 @@ ul li {
 .social-media li {
 
     text-align: center;
-    font-size: 46px;
+    font-size: 32px;
 
 }
 
 .social-media a {
     color: #fff;
+
 }
 
 .social-media {
     display: inline-flex;
-    position: relative;
-    right: 45%;
     text-decoration: none;
+    width: fit-content;
+    margin: auto;
 
 }
 
+.sm-area {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+
+}
 
 /*--------- cards */
 .card-prices {
@@ -179,6 +190,8 @@ ul li {
 
 
 }
+
+
 
 .card-prices .card {
     padding: 35px;
@@ -226,6 +239,7 @@ ul li {
     .footer-container {
         display: flex;
         text-align: center;
+        max-height: 300px;
     }
 
 
@@ -283,7 +297,6 @@ ul li {
 #card-classes {
     display: inline-flex;
     overflow-x: hidden;
-    max-height: auto;
     max-width: 100%;
     background-color: #fff;
 
@@ -299,4 +312,11 @@ ul li {
 
 
 
+}
+
+/*------- timetable */
+
+#timetable {
+    color: white;
+    background-color: rgb(25, 26, 82);
 }
