@@ -316,7 +316,79 @@ ul li {
 
 /*------- timetable */
 
-#timetable {
+.classestime {
+    background-color: white;
+}
+
+.classestime .classes {
+    display: block;
+    height: 30px;
+}
+
+.classestime .time {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+}
+
+.classestime div {
+    display: none;
+}
+
+.classestime input {
+    display: none;
+}
+
+#dmonday[type=radio]:checked~#monday {
+    display: block;
+}
+
+#dmonday[type=radio]:checked~#lmonday {
+    background-color: black;
     color: white;
-    background-color: rgb(25, 26, 82);
+}
+
+#dtuesday[type=radio]:checked~#tuesday {
+    display: block;
+}
+
+#dtuesday[type=radio]:checked~#ltuesday {
+    background-color: black;
+    color: white;
+}
+
+#dwednesday[type=radio]:checked~#wednesday {
+    display: block;
+}
+
+#dwednesday[type=radio]:checked~#lwednesday {
+    background-color: black;
+    color: white;
+}
+
+#dthursday[type=radio]:checked~#thursday {
+    display: block;
+}
+
+#dthursday[type=radio]:checked~#lthursday {
+    background-color: black;
+    color: white;
+}
+
+#dfriday[type=radio]:checked~#friday {
+    display: block;
+}
+
+#dfriday[type=radio]:checked~#lfriday {
+    background-color: black;
+    color: white;
+}
+
+#dsaturday[type=radio]:checked~#saturday {
+    display: block;
+}
+
+#dsaturday[type=radio]:checked~#lsaturday {
+    background-color: black;
+    color: white;
 }
