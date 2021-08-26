@@ -19,11 +19,11 @@
 
 }
 
-ul {
+.menu ul {
     float: right;
 }
 
-ul li {
+.menu ul li {
     display: inline-block;
     letter-spacing: 2px;
     padding: 25px 15px 15px 15px;
@@ -172,13 +172,14 @@ ul li {
     width: fit-content;
     margin: auto;
 
+
 }
 
 .sm-area {
     display: flex;
     position: relative;
     justify-content: space-around;
-
+    flex-wrap: wrap;
 }
 
 /*--------- cards */
@@ -318,18 +319,22 @@ ul li {
 
 .classestime {
     background-color: white;
+
 }
 
-.classestime .classes {
-    display: block;
-    height: 30px;
+.classestime ul li {
+    height: 80px;
+    display: flex;
 }
 
 .classestime .time {
     width: 70px;
     height: 30px;
     text-align: center;
+    display: flex;
+
 }
+
 
 .classestime div {
     display: none;
@@ -340,7 +345,7 @@ ul li {
 }
 
 #dmonday[type=radio]:checked~#monday {
-    display: block;
+    display: inline-flex;
 }
 
 #dmonday[type=radio]:checked~#lmonday {
@@ -349,7 +354,7 @@ ul li {
 }
 
 #dtuesday[type=radio]:checked~#tuesday {
-    display: block;
+    display: inline-flex;
 }
 
 #dtuesday[type=radio]:checked~#ltuesday {
@@ -358,7 +363,7 @@ ul li {
 }
 
 #dwednesday[type=radio]:checked~#wednesday {
-    display: block;
+    display: inline-flex;
 }
 
 #dwednesday[type=radio]:checked~#lwednesday {
@@ -367,7 +372,7 @@ ul li {
 }
 
 #dthursday[type=radio]:checked~#thursday {
-    display: block;
+    display: inline-flex;
 }
 
 #dthursday[type=radio]:checked~#lthursday {
@@ -376,7 +381,7 @@ ul li {
 }
 
 #dfriday[type=radio]:checked~#friday {
-    display: block;
+    display: inline-flex;
 }
 
 #dfriday[type=radio]:checked~#lfriday {
@@ -385,7 +390,7 @@ ul li {
 }
 
 #dsaturday[type=radio]:checked~#saturday {
-    display: block;
+    display: inline-flex;
 }
 
 #dsaturday[type=radio]:checked~#lsaturday {
