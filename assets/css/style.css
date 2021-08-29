@@ -135,6 +135,7 @@ header {
 .footer-1 {
 
     margin-top: 20px;
+    height: 150px;
 
 }
 
@@ -207,11 +208,22 @@ header {
 
 }
 
+.card-prices .card-body {
+    text-align: center;
+}
+
+.card-prices .cardheight {
+    text-align: center;
+    min-height: 180px;
+}
+
+
 
 
 .card-prices .card {
     padding: 35px;
     clear: none;
+    margin: 20px;
 }
 
 .carousel {
@@ -271,25 +283,9 @@ header {
 
 
     .card-prices {
-        display: none;
-    }
-
-    #carouselExampleDark {
         display: flex;
-        width: 300px;
-        height: 400px;
-        align-items: center;
-        overflow: hidden;
-        padding: 50px;
-        align-content: center;
-    }
-
-    #carouselExampleDark h5 {
-        color: white;
-    }
-
-    #carouselExampleDark p {
-        color: white;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
 
@@ -297,7 +293,27 @@ header {
         display: none;
     }
 
+    .banner {
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+        position: relative;
 
+    }
+
+    .footer-heading {
+        padding: 30px;
+    }
+
+    .social-media {
+        display: flex;
+        align-content: center;
+    }
+
+    .footer-3 {
+
+        margin-top: 0px;
+    }
 }
 
 @media only screen and (max-width: 390px) {
@@ -315,6 +331,12 @@ header {
         justify-content: center;
         align-content: center;
     }
+
+    .social-media {
+        display: flex;
+        align-content: center;
+    }
+
 }
 
 /*----------- Classes */
