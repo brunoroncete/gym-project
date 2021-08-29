@@ -157,12 +157,13 @@
 .social-media li {
 
     text-align: center;
-    font-size: 32px;
+    font-size: 36px;
 
 }
 
 .social-media a {
     color: #fff;
+    padding: 10px;
 
 }
 
@@ -171,6 +172,8 @@
     text-decoration: none;
     width: fit-content;
     margin: auto;
+    padding: 15px;
+    justify-content: space-between;
 
 
 }
@@ -203,6 +206,7 @@
     display: none;
 
 }
+
 
 
 
@@ -250,8 +254,11 @@
     }
 
     .container .footer-2 {
-        display: none;
+        display: block;
+        padding: 30px;
     }
+
+
 
     .card-prices {
         display: none;
@@ -396,4 +403,13 @@
 #dsaturday[type=radio]:checked~#lsaturday {
     background-color: black;
     color: white;
+}
+
+/*----- Join us */
+
+.join-us {
+    background: url("../img/crossfit.jpg") center center no-repeat;
+    display: block;
+    width: 1280px;
+    height: 800px;
 }
