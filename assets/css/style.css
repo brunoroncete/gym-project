@@ -239,8 +239,6 @@ header {
 
     .dropdown .dropdown-item {
         color: black;
-
-
     }
 
     .menu {
@@ -293,6 +291,13 @@ header {
     #carouselExampleDark p {
         color: white;
     }
+
+
+    ::-webkit-scrollbar {
+        display: none;
+    }
+
+
 }
 
 @media only screen and (max-width: 390px) {
@@ -316,29 +321,28 @@ header {
 
 #card-classes {
     display: inline-flex;
-    overflow-x: hidden;
+    overflow-x: scroll;
     max-width: 100%;
     background-color: #fff;
-
-
-
 }
 
 #card-classes .cardclass {
 
     height: 650px;
-
-
-
-
+    min-width: 200px;
 
 }
+
 
 /*------- timetable */
 
 .classestime {
     background-color: white;
 
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 .classestime ul li {
