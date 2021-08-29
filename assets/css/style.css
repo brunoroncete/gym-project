@@ -56,6 +56,15 @@ header {
     line-height: 30px;
 }
 
+.menu li .active h5 {
+    background-color: #fff;
+    border: 5px solid #fff;
+    border-radius: 80px;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: black;
+}
+
 .dropdown {
     display: none;
 }
@@ -438,7 +447,8 @@ header {
 }
 
 .join-us .jointext {
-
+    display: flex;
+    flex-direction: row;
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
