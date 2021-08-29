@@ -328,9 +328,17 @@ header {
 
 #card-classes .cardclass {
 
-    height: 650px;
+    height: 600px;
     min-width: 200px;
 
+}
+
+#card-classes .card-body p {
+    min-height: 120px;
+}
+
+#card-classes .card-body .card-title {
+    text-align: center;
 }
 
 
