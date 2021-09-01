@@ -324,7 +324,7 @@ header {
     }
 }
 
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 410px) {
 
 
     .social-media li {
@@ -343,6 +343,10 @@ header {
     .social-media {
         display: flex;
         align-content: center;
+    }
+
+    .footer-heading .map {
+        display: none;
     }
 
 }
@@ -377,6 +381,13 @@ header {
 
 .classestime {
     background-color: white;
+    display: block;
+
+
+}
+
+.classestime .timetable {
+    display: flex;
 
 }
 
@@ -384,81 +395,88 @@ header {
     display: none;
 }
 
-.classestime ul li {
-    height: 80px;
-    display: flex;
-}
+.classestime .timetable-wrapper {
+    display: none;
 
-.classestime .time {
-    width: 70px;
-    height: 30px;
-    text-align: center;
-    display: flex;
 
 }
 
+
+.classestime .timetable-wrapper li {
+    width: 100%;
+}
 
 .classestime div {
-    display: none;
+    margin-left: 15px;
+
+}
+
+#dmonday[type=radio]:checked~.timetable-wrapper {
+    display: flex;
+
+}
+
+
+#dmonday[type=radio]:checked~#lmonday {
+    background: black;
+    color: #ffc107;
+
+}
+
+#dtuesday[type=radio]:checked~.timetable-wrapper {
+    display: flex;
+}
+
+#dtuesday[type=radio]:checked~#ltuesday {
+    background: black;
+    color: #ffc107;
+
+}
+
+#dwednesday[type=radio]:checked~.timetable-wrapper {
+    display: flex;
+}
+
+#dwednesday[type=radio]:checked~#lwednesday {
+    background: black;
+    color: #ffc107;
+
+}
+
+#dthursday[type=radio]:checked~.timetable-wrapper {
+    display: flex;
+}
+
+#dthursday[type=radio]:checked~#lthursday {
+    background: black;
+    color: #ffc107;
+
+}
+
+#dfriday[type=radio]:checked~.timetable-wrapper {
+    display: flex;
+}
+
+#dfriday[type=radio]:checked~#lfriday {
+    background: black;
+    color: #ffc107;
+
+}
+
+#dsaturday[type=radio]:checked~.timetable-wrapper {
+    display: flex;
+}
+
+#dsaturday[type=radio]:checked~#lsaturday {
+    background: black;
+    color: #ffc107;
+
 }
 
 .classestime input {
     display: none;
 }
 
-#dmonday[type=radio]:checked~#monday {
-    display: inline-flex;
-}
-
-#dmonday[type=radio]:checked~#lmonday {
-    background-color: black;
-    color: white;
-}
-
-#dtuesday[type=radio]:checked~#tuesday {
-    display: inline-flex;
-}
-
-#dtuesday[type=radio]:checked~#ltuesday {
-    background-color: black;
-    color: white;
-}
-
-#dwednesday[type=radio]:checked~#wednesday {
-    display: inline-flex;
-}
-
-#dwednesday[type=radio]:checked~#lwednesday {
-    background-color: black;
-    color: white;
-}
-
-#dthursday[type=radio]:checked~#thursday {
-    display: inline-flex;
-}
-
-#dthursday[type=radio]:checked~#lthursday {
-    background-color: black;
-    color: white;
-}
-
-#dfriday[type=radio]:checked~#friday {
-    display: inline-flex;
-}
-
-#dfriday[type=radio]:checked~#lfriday {
-    background-color: black;
-    color: white;
-}
-
-#dsaturday[type=radio]:checked~#saturday {
-    display: inline-flex;
-}
-
-#dsaturday[type=radio]:checked~#lsaturday {
-    background-color: black;
-    color: white;
-}
 
 /*----- Join us */
 .join-us {
