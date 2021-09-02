@@ -283,6 +283,7 @@ header {
         width: 100%;
         justify-content: space-around;
         flex-direction: column;
+        align-items: center;
 
     }
 
@@ -380,103 +381,15 @@ header {
 /*------- timetable */
 
 .classestime {
-    background-color: white;
-    display: block;
-
+    display: inline-flex;
 
 }
 
-.classestime .timetable {
-    display: flex;
-
+.classestime ul {
+    display: inline-flex;
+    width: 150px;
+    height: auto;
 }
-
-::-webkit-scrollbar {
-    display: none;
-}
-
-.classestime .timetable-wrapper {
-    display: none;
-
-
-}
-
-
-.classestime .timetable-wrapper li {
-    width: 100%;
-}
-
-.classestime div {
-    margin-left: 15px;
-
-}
-
-#dmonday[type=radio]:checked~.timetable-wrapper {
-    display: flex;
-
-}
-
-
-#dmonday[type=radio]:checked~#lmonday {
-    background: black;
-    color: #ffc107;
-
-}
-
-#dtuesday[type=radio]:checked~.timetable-wrapper {
-    display: flex;
-}
-
-#dtuesday[type=radio]:checked~#ltuesday {
-    background: black;
-    color: #ffc107;
-
-}
-
-#dwednesday[type=radio]:checked~.timetable-wrapper {
-    display: flex;
-}
-
-#dwednesday[type=radio]:checked~#lwednesday {
-    background: black;
-    color: #ffc107;
-
-}
-
-#dthursday[type=radio]:checked~.timetable-wrapper {
-    display: flex;
-}
-
-#dthursday[type=radio]:checked~#lthursday {
-    background: black;
-    color: #ffc107;
-
-}
-
-#dfriday[type=radio]:checked~.timetable-wrapper {
-    display: flex;
-}
-
-#dfriday[type=radio]:checked~#lfriday {
-    background: black;
-    color: #ffc107;
-
-}
-
-#dsaturday[type=radio]:checked~.timetable-wrapper {
-    display: flex;
-}
-
-#dsaturday[type=radio]:checked~#lsaturday {
-    background: black;
-    color: #ffc107;
-
-}
-
-.classestime input {
-    display: none;
-}
-
 
 /*----- Join us */
 .join-us {

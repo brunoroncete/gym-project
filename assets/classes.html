@@ -171,14 +171,28 @@
         </div>
     </div>
     <!-------- Classes timetable-->
+
     <div class="row">
         <div class="classestime">
-            <h3>Classes Timetable</h3>
-            <div class="timetable">
-                <div id="monday">
-                    <input name="btnradio" type="radio" name="display" id="dmonday" />
-                    <label for="dmonday" class="btn btn-warning" id="lmonday">Monday</label>
-                    <div class="timetable-wrapper">
+            <div class="list-group" id="list-tab" role="tablist">
+                <a class="list-group-item list-group-item-action bg-warning active" id="list-monday-list"
+                    data-bs-toggle="list" href="#list-monday" role="tab" aria-controls="list-monday">Monday</a>
+                <a class="list-group-item list-group-item-action bg-warning" id="list-Tuesday-list"
+                    data-bs-toggle="list" href="#list-tuesday" role="tab" aria-controls="list-tuesday">Tuesday</a>
+                <a class="list-group-item list-group-item-action bg-warning" id="list-wednesday-list"
+                    data-bs-toggle="list" href="#list-wednesday" role="tab" aria-controls="list-wednesday">Wednesday</a>
+                <a class="list-group-item list-group-thursday-action bg-warning" id="list-thursday-list"
+                    data-bs-toggle="list" href="#list-thursday" role="tab" aria-controls="list-thursday">Thursday</a>
+                <a class="list-group-item list-group-friday-action bg-warning" id="list-friday-list"
+                    data-bs-toggle="list" href="#list-friday" role="tab" aria-controls="list-friday">Friday</a>
+                <a class="list-group-item list-group-saturday-action bg-warning" id="list-saturday-list"
+                    data-bs-toggle="list" href="#list-saturday" role="tab" aria-controls="list-saturday">Saturday</a>
+            </div>
+
+            <div class="bg-light timetable">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-monday" role="tabpanel"
+                        aria-labelledby="list-monday-list">
                         <ul class="list-group list-group-flush time">
                             <li class="list-group-item">07:00 ~ 08:15:</li>
                             <li class="list-group-item">08:30 ~ 09:45:</li>
@@ -188,7 +202,7 @@
                             <li class="list-group-item">20:30 ~ 21:45:</li>
                         </ul>
                         <ul class="list-group list-group-flush classes">
-                            <li class="list-group-item">Yoga Class</li>
+                            <li class="list-group-item ">Yoga Class</li>
                             <li class="list-group-item">Fitdance</li>
                             <li class="list-group-item">Group Cycling</li>
                             <li class="list-group-item">Aerobics</li>
@@ -196,11 +210,7 @@
                             <li class="list-group-item">Brazilian Jiu-Jitsu</li>
                         </ul>
                     </div>
-                </div>
-                <div id="tuesday">
-                    <input name="btnradio" type="radio" name="display" id="dtuesday" />
-                    <label for="dtuesday" class="btn btn-warning" id="ltuesday">Tuesday</label>
-                    <div class="timetable-wrapper">
+                    <div class="tab-pane fade" id="list-tuesday" role="tabpanel" aria-labelledby="list-tuesday-list">
                         <ul class="list-group list-group-flush time">
                             <li class="list-group-item">07:00 ~ 08:15:</li>
                             <li class="list-group-item">08:30 ~ 09:45:</li>
@@ -210,7 +220,7 @@
                             <li class="list-group-item">20:30 ~ 21:45:</li>
                         </ul>
                         <ul class="list-group list-group-flush classes">
-                            <li class="list-group-item">Yoga Class</li>
+                            <li class="list-group-item ">Yoga Class</li>
                             <li class="list-group-item">Fitdance</li>
                             <li class="list-group-item">Group Cycling</li>
                             <li class="list-group-item">Aerobics</li>
@@ -218,11 +228,62 @@
                             <li class="list-group-item">Brazilian Jiu-Jitsu</li>
                         </ul>
                     </div>
-                </div>
-                <div id="wednesday">
-                    <input name="btnradio" type="radio" name="display" id="dwednesday" />
-                    <label for="dwednesday" class="btn btn-warning" id="lwednesday">Wednesday</label>
-                    <div class="timetable-wrapper">
+                    <div class="tab-pane fade" id="list-wednesday" role="tabpanel"
+                        aria-labelledby="list-wednesday-list">
+                        <ul class="list-group list-group-flush time">
+                            <li class="list-group-item">07:00 ~ 08:15:</li>
+                            <li class="list-group-item">08:30 ~ 09:45:</li>
+                            <li class="list-group-item">16:00 ~ 17:15:</li>
+                            <li class="list-group-item">17:30 ~ 18:45:</li>
+                            <li class="list-group-item">19:00 ~ 20:15:</li>
+                            <li class="list-group-item">20:30 ~ 21:45:</li>
+                        </ul>
+                        <ul class="list-group list-group-flush classes">
+                            <li class="list-group-item ">Yoga Class</li>
+                            <li class="list-group-item">Fitdance</li>
+                            <li class="list-group-item">Group Cycling</li>
+                            <li class="list-group-item">Aerobics</li>
+                            <li class="list-group-item">Boxfit</li>
+                            <li class="list-group-item">Brazilian Jiu-Jitsu</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="list-thursday" role="tabpanel" aria-labelledby="list-thursday-list">
+                        <ul class="list-group list-group-flush time">
+                            <li class="list-group-item">07:00 ~ 08:15:</li>
+                            <li class="list-group-item">08:30 ~ 09:45:</li>
+                            <li class="list-group-item">16:00 ~ 17:15:</li>
+                            <li class="list-group-item">17:30 ~ 18:45:</li>
+                            <li class="list-group-item">19:00 ~ 20:15:</li>
+                            <li class="list-group-item">20:30 ~ 21:45:</li>
+                        </ul>
+                        <ul class="list-group list-group-flush classes">
+                            <li class="list-group-item ">Yoga Class</li>
+                            <li class="list-group-item">Fitdance</li>
+                            <li class="list-group-item">Group Cycling</li>
+                            <li class="list-group-item">Aerobics</li>
+                            <li class="list-group-item">Boxfit</li>
+                            <li class="list-group-item">Brazilian Jiu-Jitsu</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="list-friday" role="tabpanel" aria-labelledby="list-friday-list">
+                        <ul class="list-group list-group-flush time">
+                            <li class="list-group-item">07:00 ~ 08:15:</li>
+                            <li class="list-group-item">08:30 ~ 09:45:</li>
+                            <li class="list-group-item">16:00 ~ 17:15:</li>
+                            <li class="list-group-item">17:30 ~ 18:45:</li>
+                            <li class="list-group-item">19:00 ~ 20:15:</li>
+                            <li class="list-group-item">20:30 ~ 21:45:</li>
+                        </ul>
+                        <ul class="list-group list-group-flush classes">
+                            <li class="list-group-item ">Yoga Class</li>
+                            <li class="list-group-item">Fitdance</li>
+                            <li class="list-group-item">Group Cycling</li>
+                            <li class="list-group-item">Aerobics</li>
+                            <li class="list-group-item">Boxfit</li>
+                            <li class="list-group-item">Brazilian Jiu-Jitsu</li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="list-saturday" role="tabpanel" aria-labelledby="list-saturday-list">
                         <ul class="list-group list-group-flush time">
                             <li class="list-group-item">07:00 ~ 08:15:</li>
                             <li class="list-group-item">08:30 ~ 09:45:</li>
@@ -241,123 +302,57 @@
                         </ul>
                     </div>
                 </div>
-                <div id="thursday">
-                    <input name="btnradio" type="radio" name="display" id="dthursday" />
-                    <label for="dthursday" class="btn btn-warning" id="lthursday">Thursday</label>
-                    <div class="timetable-wrapper">
-                        <ul class="list-group list-group-flush time">
-                            <li class="list-group-item">07:00 ~ 08:15:</li>
-                            <li class="list-group-item">08:30 ~ 09:45:</li>
-                            <li class="list-group-item">16:00 ~ 17:15:</li>
-                            <li class="list-group-item">17:30 ~ 18:45:</li>
-                            <li class="list-group-item">19:00 ~ 20:15:</li>
-                            <li class="list-group-item">20:30 ~ 21:45:</li>
-                        </ul>
-                        <ul class="list-group list-group-flush classes">
-                            <li class="list-group-item">Yoga Class</li>
-                            <li class="list-group-item">Fitdance</li>
-                            <li class="list-group-item">Group Cycling</li>
-                            <li class="list-group-item">Aerobics</li>
-                            <li class="list-group-item">Boxfit</li>
-                            <li class="list-group-item">Brazilian Jiu-Jitsu</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="friday">
-                    <input name="btnradio" type="radio" name="display" id="dfriday" />
-                    <label for="dfriday" class="btn btn-warning" id="lfriday">Friday</label>
-                    <div class="timetable-wrapper">
-                        <ul class="list-group list-group-flush time">
-                            <li class="list-group-item">07:00 ~ 08:15:</li>
-                            <li class="list-group-item">08:30 ~ 09:45:</li>
-                            <li class="list-group-item">16:00 ~ 17:15:</li>
-                            <li class="list-group-item">17:30 ~ 18:45:</li>
-                            <li class="list-group-item">19:00 ~ 20:15:</li>
-                            <li class="list-group-item">20:30 ~ 21:45:</li>
-                        </ul>
-                        <ul class="list-group list-group-flush classes">
-                            <li class="list-group-item">Yoga Class</li>
-                            <li class="list-group-item">Fitdance</li>
-                            <li class="list-group-item">Group Cycling</li>
-                            <li class="list-group-item">Aerobics</li>
-                            <li class="list-group-item">Boxfit</li>
-                            <li class="list-group-item">Brazilian Jiu-Jitsu</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="saturday">
-                    <input name="btnradio" type="radio" name="display" id="dsaturday" />
-                    <label for="dsaturday" class="btn btn-warning" id="lsaturday">Saturday</label>
-                    <div class="timetable-wrapper">
-                        <ul class="list-group list-group-flush time">
-                            <li class="list-group-item">07:00 ~ 08:15:</li>
-                            <li class="list-group-item">08:30 ~ 09:45:</li>
-                            <li class="list-group-item">16:00 ~ 17:15:</li>
-                            <li class="list-group-item">17:30 ~ 18:45:</li>
-                            <li class="list-group-item">19:00 ~ 20:15:</li>
-                            <li class="list-group-item">20:30 ~ 21:45:</li>
-                        </ul>
-                        <ul class="list-group list-group-flush classes">
-                            <li class="list-group-item">Yoga Class</li>
-                            <li class="list-group-item">Fitdance</li>
-                            <li class="list-group-item">Group Cycling</li>
-                            <li class="list-group-item">Aerobics</li>
-                            <li class="list-group-item">Boxfit</li>
-                            <li class="list-group-item">Brazilian Jiu-Jitsu</li>
-                        </ul>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
-    <footer>
-        <div id="footer-container">
+
+        <footer>
+            <div id="footer-container">
 
 
-            <div class="footer-heading footer-1">
-                <h2><strong>Contact Information</strong></h2>
-                <p><i class="fas fa-phone-square-alt"></i> +44 555 123 456</p>
-                <a href="mailto:join-us@tribofitness.co.uk"><i class="fas fa-envelope"></i>
-                    join-us@tribofitness.co.uk</a>
-            </div>
+                <div class="footer-heading footer-1">
+                    <h2><strong>Contact Information</strong></h2>
+                    <p><i class="fas fa-phone-square-alt"></i> +44 555 123 456</p>
+                    <a href="mailto:join-us@tribofitness.co.uk"><i class="fas fa-envelope"></i>
+                        join-us@tribofitness.co.uk</a>
+                </div>
 
 
-            <div class="footer-heading footer-2">
-                <h2><strong>Do you have any sugestions?</strong></h2>
-                <textarea rows="3" name="sugestions" id="sugestions" class="form-control" placeholder="Tell us here"
-                    required></textarea>
-                <div class="form-row text-center">
+                <div class="footer-heading footer-2">
+                    <h2><strong>Do you have any sugestions?</strong></h2>
+                    <textarea rows="3" name="sugestions" id="sugestions" class="form-control" placeholder="Tell us here"
+                        required></textarea>
+                    <div class="form-row text-center">
 
-                    <div class="button-sub">
-                        <button type="button" class="btn btn-light">Submit</button>
+                        <div class="button-sub">
+                            <button type="button" class="btn btn-light">Submit</button>
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="footer-heading footer-3">
-                <h2><strong>Address</strong></h2>
-                <p><i class="fas fa-map-marker-alt"></i> 108 St Mary St, Cardiff, CF10 1EB</p>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="map"><iframe
-                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.848134408059!2d-3.1812247840288963!3d51.479301820577874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb1af9dc71b%3A0x1c8008abf8555bef!2s108%20St%20Mary%20St%2C%20Cardiff%20CF10%201DX!5e0!3m2!1sen!2suk!4v1629022171004!5m2!1sen!2suk"
-                                style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <div class="footer-heading footer-3">
+                    <h2><strong>Address</strong></h2>
+                    <p><i class="fas fa-map-marker-alt"></i> 108 St Mary St, Cardiff, CF10 1EB</p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="map"><iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.848134408059!2d-3.1812247840288963!3d51.479301820577874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb1af9dc71b%3A0x1c8008abf8555bef!2s108%20St%20Mary%20St%2C%20Cardiff%20CF10%201DX!5e0!3m2!1sen!2suk!4v1629022171004!5m2!1sen!2suk"
+                                    style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-    </footer>
-    <div class="sm-area">
-        <ul class="social-media list-inline">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
-        </ul>
-    </div>
+        </footer>
+        <div class="sm-area">
+            <ul class="social-media list-inline">
+                <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+                <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
+                <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+        </div>
 
 </body>
 
