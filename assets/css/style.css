@@ -380,15 +380,13 @@ header {
 
 /*------- timetable */
 
-.classestime {
-    display: inline-flex;
-
+.timetable {
+    background: #fff;
+    display: block;
 }
 
-.classestime ul {
+#tablelist {
     display: inline-flex;
-    width: 150px;
-    height: auto;
 }
 
 /*----- Join us */
