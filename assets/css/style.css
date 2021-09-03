@@ -385,6 +385,10 @@ header {
     display: block;
 }
 
+.timetable h4 {
+    float: center;
+}
+
 #tablelist {
     display: inline-flex;
 }
