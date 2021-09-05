@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,200;0,300;0,400;1,200;1,500&family=Gowun+Dodum&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap');
 
 * {
     margin: 0;
@@ -16,7 +16,7 @@ header {
     float: left;
     padding: 25px 15px 15px 15px;
     font-weight: 300;
-    font-family: "Barlow";
+    font-family: "Oswald";
     letter-spacing: 2px;
     color: #fff;
 
@@ -230,7 +230,7 @@ header {
     background-color: #ffc107;
     border-radius: 20px;
     text-align: center;
-    margin: 0px 20% 0px 20%;
+    margin: 0px 30% 0px 30%;
 }
 
 .titleprice .pricetxt a {
@@ -460,7 +460,14 @@ header {
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
+    width: auto;
+    height: 150px;
+}
 
+.formjoin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .join-us .jointext a {
@@ -477,13 +484,14 @@ header {
     background: #fff;
     height: 250px;
     width: 500px;
+    margin-top: 50px;
 
 }
 
 .formtittle {
     display: flex;
     background: #fff;
-    height: 400px;
+    height: 420px;
     width: 410px;
     padding: 30px;
     border: 2px solid black;
