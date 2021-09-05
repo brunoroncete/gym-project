@@ -431,7 +431,7 @@ header {
     background: url("../img/bgjoin.jpg") no-repeat center center;
     padding: 50px;
     border-top: 2px solid #fff;
-    align-content: center;
+    justify-content: center;
 }
 
 .join-us img {
