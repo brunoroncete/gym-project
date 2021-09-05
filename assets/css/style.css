@@ -327,8 +327,8 @@ header {
     .timetable .classdesc {
         display: flex;
         flex-direction: column;
-        align-content: space-around;
-        padding: 35px;
+        padding: 15px;
+        margin: 20px;
 
     }
 
@@ -348,7 +348,7 @@ header {
 
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 450px) {
 
 
     .social-media li {
@@ -371,6 +371,11 @@ header {
 
     .footer-heading .map {
         display: none;
+    }
+
+    .timetable .classbt {
+        display: flex;
+        flex-direction: column;
     }
 
 }
@@ -425,7 +430,8 @@ header {
     height: 100%;
     background: url("../img/bgjoin.jpg") no-repeat center center;
     padding: 50px;
-    border-top: 2px solid #fff
+    border-top: 2px solid #fff;
+    align-content: center;
 }
 
 .join-us img {
@@ -450,12 +456,46 @@ header {
 
 .join-us .jointext {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: #fff;
     border-radius: 5px;
     padding: 20px;
+
 }
 
 .join-us .jointext a {
     text-decoration: none;
+
+}
+
+.user-details {
+    display: flex;
+}
+
+.formtittle {
+    display: flex;
+    background: #fff;
+    height: 250px;
+    width: 500px;
+
+}
+
+.formtittle {
+    display: flex;
+    background: #fff;
+    height: 400px;
+    width: 410px;
+    padding: 30px;
+    border: 2px solid black;
+
+}
+
+.forminput {
+    display: flex;
+    flex-direction: column;
+}
+
+.forminput input {
+    border: black;
+    background: #f1f1f1;
 }
