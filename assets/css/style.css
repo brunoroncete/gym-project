@@ -201,10 +201,10 @@ header {
 /*--------- cards */
 .card-prices {
     display: flex;
-    padding: 50px;
     position: relative;
     justify-content: space-around;
-
+    padding: 0px 30px 50px 30px;
+    justify-content: center;
 
 }
 
@@ -239,9 +239,7 @@ header {
 
 }
 
-.card-prices {
-    padding: 0px 30px 50px 30px;
-}
+.card-prices {}
 
 
 
@@ -462,6 +460,7 @@ header {
     padding: 20px;
     width: auto;
     height: 150px;
+    border: 2px solid black;
 }
 
 .formjoin {
