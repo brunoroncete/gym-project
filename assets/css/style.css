@@ -324,10 +324,28 @@ header {
         margin-top: 0px;
     }
 
-    .timetable {
-        background: #fff;
-        display: inline-flex;
+    .timetable .classdesc {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        padding: 35px;
+
     }
+
+    .timetable .classbt {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .timetable .classbt a {
+        display: flex;
+        align-items: center;
+        margin: 10px;
+        border-radius: 15px;
+        width: 150px;
+    }
+
 }
 
 @media only screen and (max-width: 410px) {
