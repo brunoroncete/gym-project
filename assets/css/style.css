@@ -38,7 +38,8 @@ header {
 }
 
 
-.menu {
+
+] .menu {
     display: block;
 }
 
@@ -208,8 +209,9 @@ header {
 
 }
 
-.card-prices .card-body {
+.card-body {
     text-align: center;
+    justify-content: center;
 }
 
 .card-prices .cardheight {
@@ -330,6 +332,8 @@ header {
 
     }
 
+
+
     .timetable .classbt {
         display: flex;
         flex-direction: row;
@@ -374,6 +378,10 @@ header {
     .timetable .classbt {
         display: flex;
         flex-direction: column;
+    }
+
+    .banner img {
+        max-width: 300px;
     }
 
 }
