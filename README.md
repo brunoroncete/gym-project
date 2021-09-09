@@ -1,20 +1,55 @@
 # TRIBO FITNESS
 
-This website was created to demonstrate my front-end skills for Milestone Project 1 of Code Institute’s Full Stack Developer course. 
+![Mockup](../gym-project/assets/img/true.png)
+
+This website was created to demonstrate my front-end skills for Milestone Project 1 of Code Institute’s Diploma in Web Application Development. 
 
 
-## Existing Features
+- ## Existing Features
 
-## Navigation Bar
+### Navigation Bar
+![Navbar](../gym-project/assets/img/navbar1.png)
+![Navbar](../gym-project/assets/img/navbar2.png)
 
 The navigation bar contain links to the Logo, Home page, Classes and Join Now page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
+### Footer
+![Footer](../gym-project/assets/img/footer.png)
+
+The footer provides the user four sections, with contact information, a sugestions box, the address with an interactive map, and links to the social media accounts (Facebook, instagram, youtube and twitter).
+
+
+## Design
+
+
+
 ## Wireframes
 
-[Desktop index.html](C:\Users\bruno\Desktop\workspace\gym-project\wireframe\desktop.pdf)
+### index.html
+1. [Desktop index.html](../gym-project/wireframe/desktop.pdf)
 
-Frameworks, Languages & Programs Used
+2. [Mobile index.html](../gym-project/wireframe/smartphone.pdf)
+
+3. [Tablet index.html](../gym-project/wireframe/tablet.pdf)
+
+### classes.html
+1. [Desktop classes.html](../gym-project/wireframe/desktopclasses.pdf)
+
+2. [Tablet classes.html](../gym-project/wireframe/tabletclasses.pdf)
+
+3. [Mobile classes.html](../gym-project/wireframe/mobileclasses.pdf)
+
+### joinnow.html
+1. [Desktop joinnow.html](../gym-project/wireframe/desktopjoinnow.pdf)
+
+2. [Tablet joinnow.html](../gym-project/wireframe/tabletjoin.pdf)
+
+3. [Tablet joinnow.html](../gym-project/wireframe/mobilejoin.pdf)
+
+
+
+## Frameworks, Languages & Programs Used
 
 ### VSCode
 This developer used VSCode for their IDE while building the website.
