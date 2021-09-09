@@ -236,7 +236,9 @@ header {
     background-color: #ffc107;
     border-radius: 20px;
     text-align: center;
-    margin: 0px 30% 0px 30%;
+    margin: 0px 30% 80px 30%;
+    border: 2px solid black;
+    padding-top: 25px;
 }
 
 .titleprice .pricetxt a {
@@ -247,8 +249,8 @@ header {
 
 .pricetxt {
     padding: 40px;
-    margin-bottom: 30px;
 }
+
 
 
 
@@ -336,9 +338,7 @@ header {
         flex-direction: column;
         padding: 15px;
         margin: 20px;
-
     }
-
 
 
     .timetable .classbt {
@@ -385,12 +385,36 @@ header {
     .timetable .classbt {
         display: flex;
         flex-direction: column;
+        margin-bottom: 35px;
     }
 
     .banner img {
         max-width: 300px;
     }
 
+    .pricetxt {
+        padding: 5px;
+        margin-bottom: 30px;
+    }
+
+    .timetable .classdesc {
+        display: flex;
+        align-content: center;
+        padding: 15px;
+        margin: 20px;
+
+    }
+
+    .titleprice {
+        text-align: center;
+        margin: 0px 15% 20px 15%;
+    }
+
+    .formtittle {
+        min-height: 480px;
+    }
+
+    .gender {}
 }
 
 /*----------- Classes */
@@ -430,6 +454,11 @@ header {
 .timetable {
     background: #fff;
 
+}
+
+.timetable h2 {
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -472,11 +501,13 @@ header {
     display: flex;
     flex-direction: column;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 20px;
     padding: 20px;
-    width: auto;
+    width: 410px;
     height: 150px;
-    border: 2px solid black;
+    border: 2px dashed black;
+    background: #1f212157;
+    color: #fff;
 }
 
 .formjoin {
@@ -494,22 +525,18 @@ header {
     display: flex;
 }
 
-.formtittle {
-    display: flex;
-    background: #fff;
-    height: 250px;
-    width: 500px;
-    margin-top: 50px;
-
-}
 
 .formtittle {
     display: flex;
-    background: #fff;
-    height: 420px;
+    background: #1f212157;
+    height: 450px;
     width: 410px;
     padding: 30px;
-    border: 2px solid black;
+    border: 2px dashed black;
+    border-radius: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    color: #fff;
 
 }
 
@@ -521,4 +548,9 @@ header {
 .forminput input {
     border: black;
     background: #f1f1f1;
+}
+
+.forminput button {
+    margin: 20px 30%;
+
 }
