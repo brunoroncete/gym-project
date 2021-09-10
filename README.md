@@ -3,9 +3,37 @@
 ![Mockup](../gym-project/assets/img/true.png)
 
 This website was created to demonstrate my front-end skills for Milestone Project 1 of Code Institute’s Diploma in Web Application Development. 
+## UX
+
+The purpose is to design an attractive website to the customers of the gym, with a simple and intuitive layout that works on mobiles, tablets or desktops.
+
+## User Stories
+### First Time Visitor Goals
+
+- As a first time visitor, I want to easily see if the gym offers the service that I am looking for.
+- As a first time visitor, I want to find information about the classes that the gym offers.
+- As a fisrt time visitor, I want to find out the cost of the services provided.
+
+### Returning Visitor Goals
+- As a Returning Visitor, I want to find the best way to contact the gym.
+- As a Returning Visitor, I want to be able to access your social media accounts.
+
+### Frequent User Goals
+- As a Frequent User, I want to be able to book my classes.
+- As a Frequent User I want to be able to check the status of my membership.
 
 
-- ## Existing Features
+
+## Design
+### Colour Scheme
+
+- The main colours used are white, black, grey and yellow, to give the site a clean, modern, professional look.
+
+### Typography
+
+- The Oswald font is used throughout the website with Sans Serif.+
+
+## Existing Features
 
 ### Navigation Bar
 ![Navbar](../gym-project/assets/img/navbar1.png)
@@ -18,11 +46,6 @@ This section will allow the user to easily navigate from page to page across all
 ![Footer](../gym-project/assets/img/footer.png)
 
 The footer provides the user four sections, with contact information, a sugestions box, the address with an interactive map, and links to the social media accounts (Facebook, instagram, youtube and twitter).
-
-
-## Design
-
-
 
 ## Wireframes
 
@@ -52,26 +75,35 @@ The footer provides the user four sections, with contact information, a sugestio
 ## Frameworks, Languages & Programs Used
 
 ### VSCode
-This developer used VSCode for their IDE while building the website.
+- This developer used VSCode for their IDE while building the website.
 
 ### BootstrapCDN
-The project uses Bootstrap v 5.1.0 to simplify the structure of the website.
-The project also uses BootstrapCDN to provide icons from FontAwesome.
+- The project uses Bootstrap v 5.1.0 to simplify the structure of the website.
+- The project also uses BootstrapCDN to provide icons from FontAwesome.
 
 ### Popper.js
-The project uses Popper,js reference Javascript needed for the responsive navbar.
+- The project uses Popper,js reference Javascript needed for the responsive navbar.
 
 ### Google Fonts
-The project uses Google fonts to style the website fonts.
+- The project uses Google fonts to style the website fonts.
 
 ### Canva
-The project uses Canva image editor to create the logo.
+- The project uses Canva image editor to create the logo.
 
 ### Balsamiq 
-The project uses Balsamiq to create the wireframe mockups
+- The project uses Balsamiq to create the wireframe mockups
 
 ### HTML 5 
-Markup language designed to be displayed in a web browser.
+- Markup language designed to be displayed in a web browser.
 
 ### CSS 3
-Style sheet language used for describing the presentation of a document in HTML.
+- Style sheet language used for describing the presentation of a document in HTML.
+
+## Testing
+
+- I used the Google Chrome Developer tools to inspect the site at different device sizes and in responsive mode.
+
+- W3C Markup Validator
+
+- W3C CSS Validator 
+
