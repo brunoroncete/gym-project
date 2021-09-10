@@ -215,7 +215,7 @@ header {
 }
 
 .card-body p {
-    padding: 25px
+    padding: 10px
 }
 
 .card-prices .cardheight {
@@ -436,7 +436,7 @@ header {
 }
 
 #card-classes .card-body p {
-    min-height: 120px;
+    min-height: 165px;
 }
 
 #card-classes .card-body .card-title {
@@ -552,5 +552,6 @@ header {
 
 .forminput button {
     margin: 20px 30%;
+
 
 }
