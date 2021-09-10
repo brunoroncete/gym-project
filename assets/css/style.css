@@ -355,6 +355,10 @@ header {
         width: 150px;
     }
 
+    #card-classes .cardclass {
+        max-height: 600px;
+    }
+
 }
 
 @media only screen and (max-width: 450px) {
@@ -430,13 +434,13 @@ header {
 
 #card-classes .cardclass {
 
-    height: 650px;
+    height: 680px;
     min-width: 200px;
 
 }
 
 #card-classes .card-body p {
-    min-height: 165px;
+    min-height: 140px;
 }
 
 #card-classes .card-body .card-title {
@@ -453,6 +457,7 @@ header {
 /*------- timetable */
 .timetable {
     background: #fff;
+    padding-top: 50px;
 
 }
 
