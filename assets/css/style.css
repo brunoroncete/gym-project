@@ -166,6 +166,10 @@ header {
     height: 250px;
 }
 
+.form-control {
+    resize: none;
+}
+
 /*--------- Social media */
 
 .social-media li {
@@ -294,6 +298,7 @@ header {
         flex-direction: column;
         align-items: center;
 
+
     }
 
 
@@ -321,6 +326,8 @@ header {
 
     .footer-heading {
         padding: 30px;
+        width: 80%;
+        text-align: center;
     }
 
     .social-media {
@@ -329,8 +336,11 @@ header {
     }
 
     .footer-3 {
-
         margin-top: 0px;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
     }
 
     .timetable .classdesc {
@@ -383,7 +393,9 @@ header {
     }
 
     .footer-heading .map {
-        display: none;
+        width: inherit;
+        height: inherit;
+
     }
 
     .timetable .classbt {
@@ -418,7 +430,10 @@ header {
         min-height: 480px;
     }
 
-    .gender {}
+    .footer-heading {
+        width: 120%;
+        text-align: center
+    }
 }
 
 /*----------- Classes */
