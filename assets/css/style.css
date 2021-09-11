@@ -83,7 +83,7 @@ header {
 #gym-banner {
     height: 100%;
     width: 100%;
-    background: url("../img/bglogo.jpg") no-repeat center center;
+    background: url("../images/bglogo.jpg") no-repeat center center;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
 
@@ -476,7 +476,7 @@ header {
 .join-us {
     display: block;
     height: 100%;
-    background: url("../img/bgjoin.jpg") no-repeat center center;
+    background: url("../images/bgjoin.jpg") no-repeat center center;
     padding: 50px;
     border-top: 2px solid #fff;
     justify-content: center;
