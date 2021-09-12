@@ -10,6 +10,10 @@
 
 header {
     height: 75px;
+    background: #0000006e;
+    position: sticky;
+    top: 0px;
+
 }
 
 #logo {
@@ -24,6 +28,7 @@ header {
 
 .menu ul {
     float: right;
+    height: 50px;
 }
 
 .menu ul li {
@@ -75,7 +80,7 @@ header {
     height: 450px;
     width: 100%;
     overflow: hidden;
-    position: relative;
+
 
 }
 
@@ -206,7 +211,6 @@ header {
 /*--------- cards */
 .card-prices {
     display: flex;
-    position: relative;
     justify-content: space-around;
     padding: 0px 30px 50px 30px;
     justify-content: center;
@@ -227,7 +231,9 @@ header {
     min-height: 180px;
 }
 
-
+.card {
+    position: unset;
+}
 
 
 .card-prices .card {
@@ -255,7 +261,9 @@ header {
     padding: 40px;
 }
 
-
+.list-group-item {
+    position: unset;
+}
 
 
 
@@ -320,7 +328,7 @@ header {
         height: 400px;
         width: 100%;
         overflow: hidden;
-        position: relative;
+
 
     }
 
