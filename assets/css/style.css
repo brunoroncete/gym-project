@@ -261,10 +261,15 @@ header {
     padding: 40px;
 }
 
+.list-group-item.active {
+    position: unset;
+    border-color: black;
+    z-index: unset;
+}
+
 .list-group-item {
     position: unset;
 }
-
 
 
 
