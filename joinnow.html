@@ -84,18 +84,18 @@
 
             <div class="formtittle">
                 <div class="user-details">
-                    <div class="forminput">
+                    <form class="forminput" action="https://formdump.codeinstitute.net/" method="get">
                         <h3>Book an appointment now</h3>
                         <span class="details">Full Name</span>
-                        <input type="text" placeholder="Enter your name">
+                        <input type="text" placeholder="Enter your name" required>
                         <span class="details">Age</span>
-                        <input type="text" placeholder="Enter your age">
+                        <input type="number" placeholder="Enter your age" required>
                         <span class="details">Postcode</span>
-                        <input type="text" placeholder="Enter your postcode">
+                        <input type="number" placeholder="Enter your postcode" required>
                         <span class="details">E-mail</span>
-                        <input type="text" placeholder="Enter your e-mail">
+                        <input type="email" placeholder="Enter your e-mail" required>
                         <span class="details">Phone Number</span>
-                        <input type="text" placeholder="Enter your phone number">
+                        <input type="tel" placeholder="Enter your phone number" required>
                         <div class="gender">
                             <span class="details">Gender</span>
                             <br>
@@ -108,7 +108,7 @@
                             <label for="pnts"><span>Other</span></label>
                         </div>
                         <button type="submit" class="btn btn-warning">Submit</button>
-                    </div>
+                    </form>
                 </div>
             </div>
 
@@ -132,7 +132,7 @@
                 <div class="form-row text-center">
 
                     <div class="button-sub">
-                        <button type="button" class="btn btn-light">Submit</button>
+                        <button type="button" class="btn btn-warning">Submit</button>
 
                     </div>
                 </div>

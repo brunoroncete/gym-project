@@ -406,6 +406,10 @@ header {
 
     }
 
+    .map iframe {
+        width: 100%;
+    }
+
     .timetable .classbt {
         display: flex;
         flex-direction: column;
@@ -534,7 +538,7 @@ header {
     width: 410px;
     height: 150px;
     border: 2px dashed black;
-    background: #1f212157;
+    background: #1f2121b7;
     color: #fff;
 }
 
@@ -556,8 +560,8 @@ header {
 
 .formtittle {
     display: flex;
-    background: #1f212157;
-    height: 450px;
+    background: #1f2121b7;
+    height: auto;
     width: 410px;
     padding: 30px;
     border: 2px dashed black;
@@ -576,6 +580,13 @@ header {
 .forminput input {
     border: black;
     background: #f1f1f1;
+    font-size: 14px;
+    padding: 5px;
+}
+
+.forminput span {
+    font-size: 14px;
+    padding: 6px;
 }
 
 .forminput button {

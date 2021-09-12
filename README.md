@@ -1,8 +1,9 @@
 # TRIBO FITNESS
 
-![Mockup](../gym-project/assets/img/true.png)
+![Mockup](../gym-project/assets/images/true.png)
 
-This website was created to demonstrate my front-end skills for Milestone Project 1 of Code Institute’s Diploma in Web Application Development. 
+This comprehensive site is designed for a fictional gym (Fitness Tribe). The focus of the site is to provide information about the services the gym offers and attract more customers.
+
 ## UX
 
 The purpose is to design an attractive website to the customers of the gym, with a simple and intuitive layout that works on mobiles, tablets or desktops.
@@ -36,14 +37,14 @@ The purpose is to design an attractive website to the customers of the gym, with
 ## Existing Features
 
 ### Navigation Bar
-![Navbar](../gym-project/assets/img/navbar1.png)
-![Navbar](../gym-project/assets/img/navbar2.png)
+![Navbar](../gym-project/assets/images/navbar1.png)
+![Navbar](../gym-project/assets/images/navbar2.png)
 
 The navigation bar contain links to the Logo, Home page, Classes and Join Now page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 ### Footer
-![Footer](../gym-project/assets/img/footer.png)
+![Footer](../gym-project/assets/images/footer.png)
 
 The footer provides the user four sections, with contact information, a sugestions box, the address with an interactive map, and links to the social media accounts (Facebook, instagram, youtube and twitter).
 
