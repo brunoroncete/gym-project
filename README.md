@@ -1,6 +1,6 @@
 # TRIBO FITNESS
 
-![Mockup](../gym-project/assets/images/true.png)
+![Mockup](../gym-project/assets/images/mockup.png)
 
 This comprehensive site is designed for a fictional gym (Fitness Tribe). The focus of the site is to provide information about the services the gym offers and attract more customers.
 
@@ -37,16 +37,60 @@ The purpose is to design an attractive website to the customers of the gym, with
 ## Existing Features
 
 ### Navigation Bar
+
+- Desktop Navbar
+
 ![Navbar](../gym-project/assets/images/navbar1.png)
 ![Navbar](../gym-project/assets/images/navbar2.png)
 
-The navigation bar contain links to the Logo, Home page, Classes and Join Now page and is identical in each page to allow for easy navigation.
+- Mobile Navbar
+
+![Navbar](../gym-project/assets/images/navbarmobile.png)
+
+
+The sticky navigation bar contain links to the Logo, Home page, Classes and Join Now page and is identical in each page to allow for easy navigation.
 This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+The navbar change when in small screen, showing a dropdown menu instead of three buttons.
 
 ### Footer
-![Footer](../gym-project/assets/images/footer.png)
+
+- Desktop Footer
+
+![Footer Desktop](../gym-project/assets/images/footer.png)
+
+
+
+- Mobile Footer
+
+![Footer Mobile](../gym-project/assets/images/footermobil.png)
 
 The footer provides the user four sections, with contact information, a sugestions box, the address with an interactive map, and links to the social media accounts (Facebook, instagram, youtube and twitter).
+
+### Home Page
+- Logo
+
+![Logo](../gym-project/assets/images/siteindexlogo.png)
+
+- Membership Cards
+
+![Cards Membership](../gym-project/assets/images/siteindex1.png)
+
+The home page is divided in two rows, one with the logo and a background and another with a join now buttow and cards showing the membership prices.
+
+### Classes Page
+
+- Desktop Cards
+
+![Cards Classes](../gym-project/assets/images/cardsclasses.png)
+
+- Mobile Cards 
+
+![Cards Classes](../gym-project/assets/images/cardsmobile.png)
+
+- Desktop Classes Description
+
+
+
 
 ## Wireframes
 
