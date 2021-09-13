@@ -271,7 +271,14 @@ header {
     position: unset;
 }
 
+.tab-content {
+    margin-left: 40px;
+}
 
+
+.classdesc {
+    margin-left: 60px;
+}
 
 /*------ media */
 
@@ -361,7 +368,9 @@ header {
         flex-direction: column;
         padding: 15px;
         margin: 20px;
+
     }
+
 
 
     .timetable .classbt {
