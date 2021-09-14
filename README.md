@@ -89,6 +89,21 @@ The home page is divided in two rows, one with the logo and a background and ano
 
 - Desktop Classes Description
 
+![Cards Classes](../gym-project/assets/images/classesdescription.png)
+
+- Mobile Classes Description
+
+![Cards Classes](../gym-project/assets/images/classesdescmobi.png)
+
+The classes page is divided also in two rows, one with the cards showing the time where the gym has the classes, when in small screens, I used the "overflow-x: scroll" so the customer can see all the cards. The second row is the description of the classes, where I used bootstrap to design buttons that shows the text when active.
+
+### Join Now Page
+
+- Desktop Form
+
+![Cards Classes](../gym-project/assets/images/joinusform.png)
+
+The Join Now page presents a form that the user can submit to book an appointment.
 
 
 
