@@ -259,6 +259,10 @@ header {
     padding: 40px;
 }
 
+.pricetxt #joinustxt {
+    font-size: 36px;
+}
+
 .list-group-item.active {
     position: unset;
     border-color: black;
