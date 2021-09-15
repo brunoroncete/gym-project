@@ -84,30 +84,29 @@
 
             <div class="formtittle">
                 <div class="user-details">
-                    <form class="forminput" action="https://formdump.codeinstitute.net/" method="get">
+                    <form class="forminput" id="form1" action="https://formdump.codeinstitute.net/" method="get">
                         <h3>Book an appointment now</h3>
                         <span class="details">Full Name</span>
-                        <input type="text" placeholder="Enter your name" required>
+                        <input type="text" name="Full Name" placeholder="Enter your name" required>
                         <span class="details">Age</span>
-                        <input type="number" placeholder="Enter your age" required>
+                        <input type="number" name="Age" placeholder="Enter your age" required>
                         <span class="details">Postcode</span>
-                        <input type="number" placeholder="Enter your postcode" required>
+                        <input type="number" name="Postcode" placeholder="Enter your postcode" required>
                         <span class="details">E-mail</span>
-                        <input type="email" placeholder="Enter your e-mail" required>
+                        <input type="email" name="Email" placeholder="Enter your e-mail" required>
                         <span class="details">Phone Number</span>
-                        <input type="tel" placeholder="Enter your phone number" required>
+                        <input type="tel" name="Phone Number" placeholder="Enter your phone number" required>
                         <div class="gender">
                             <span class="details">Gender</span>
                             <br>
-                            <input type="radio" id="Male" name="male" value="Male">
+                            <input type="radio" id="Male" name="Gender" value="Male">
                             <label for="Male"><span>Male</span></label>
-                            <input type="radio" id="Female" name="female" value="Female">
+                            <input type="radio" id="Female" name="Gender" value="Female">
                             <label for="Female"><span>Female</span></label>
-
-                            <input type="radio" id="pnts" name="prefernts" value="Prefer not to say">
-                            <label for="pnts"><span>Other</span></label>
+                            <input type="radio" id="other" name="Gender" value="Other">
+                            <label for="other"><span>Other</span></label>
                         </div>
-                        <button type="submit" class="btn btn-warning">Submit</button>
+                        <button type="submit" form="form1" class="btn btn-warning" value="Submit">Submit</button>
                     </form>
                 </div>
             </div>
