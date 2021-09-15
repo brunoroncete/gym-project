@@ -161,9 +161,51 @@ The Join Now page presents a form that the user can submit to book an appointmen
 
 ## Testing
 
-- I used the Google Chrome Developer tools to inspect the site at different device sizes and in responsive mode.
+### Development Testing
+
+-  I used the Google Chrome Developer tools during the development of the website to inspect the site at different device sizes and in responsive mode.
+
+### Manual Testing
+
+- Navigation Bar
+
+1. When the company name is clicked it returns the user to the index.html from all pages.
+2. When each link on the navbar is clicked it takes the user to the correct page.
+
+- Social Media Links
+1. When each link is clicked it opens a new tab.
+2. When When each link is clicked it takes the user to the correct page.
+
+- Forms
+1. When submitted the form link to the correct place.
+
+![Valid Form](../gym-project/assets/images/validform.png)
+
+### Final Testing 
+
+- Lighthouse
+
+![Lighthouse](../gym-project/assets/images/Lighthousetest.png)
 
 - W3C Markup Validator
 
+index.html
+
+![Markup Index](../gym-project/assets/images/validindex.png)
+
+classes.html 
+
+![Markup Classes](../gym-project/assets/images/validclasses.png)
+
+joinnow.html
+
+![Markup JoinNow](../gym-project/assets/images/validjoin.png)
+
+
+
 - W3C CSS Validator 
+
+![Markup CSS](../gym-project/assets/images/validcss.png)
+
+
 
