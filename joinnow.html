@@ -91,11 +91,11 @@
                         <span class="details">Age</span>
                         <input type="number" name="Age" placeholder="Enter your age" required>
                         <span class="details">Postcode</span>
-                        <input type="number" name="Postcode" placeholder="Enter your postcode" required>
+                        <input type="text" name="Postcode" placeholder="Enter your postcode" required>
                         <span class="details">E-mail</span>
                         <input type="email" name="Email" placeholder="Enter your e-mail" required>
                         <span class="details">Phone Number</span>
-                        <input type="tel" name="Phone Number" placeholder="Enter your phone number" required>
+                        <input type="number" name="Phone Number" placeholder="Enter your phone number" required>
                         <div class="gender">
                             <span class="details">Gender</span>
                             <br>
@@ -123,18 +123,19 @@
                     join-us@tribofitness.co.uk</a>
             </div>
 
-
             <div class="footer-heading footer-2">
                 <h2><strong>Do you have any sugestions?</strong></h2>
-                <textarea rows="3" name="sugestions" id="sugestions" class="form-control" placeholder="Tell us here"
-                    required></textarea>
-                <div class="form-row text-center">
+                <form action="https://formdump.codeinstitute.net/" method="post">
+                    <textarea rows="3" name="sugestions" id="sugestions" class="form-control" placeholder="Tell us here"
+                        required></textarea>
+                    <div class="form-row text-center">
 
-                    <div class="button-sub">
-                        <button type="button" class="btn btn-warning">Submit</button>
+                        <div class="button-sub">
+                            <button type="button" class="btn btn-warning">Submit</button>
 
+                        </div>
                     </div>
-                </div>
+                </form>
             </div>
 
             <div class="footer-heading footer-3">
@@ -144,7 +145,7 @@
                 <div class="row">
                     <div class="map"><iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2484.848134408059!2d-3.1812247840288963!3d51.479301820577874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cb1af9dc71b%3A0x1c8008abf8555bef!2s108%20St%20Mary%20St%2C%20Cardiff%20CF10%201DX!5e0!3m2!1sen!2suk!4v1629022171004!5m2!1sen!2suk"
-                            style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                            style="border:0;" allowfullscreen="" loading="lazy" title="Address Map"></iframe>
                     </div>
 
                 </div>
@@ -153,12 +154,17 @@
     </footer>
     <div class="sm-area">
         <ul class="social-media list-inline">
-            <li><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a></li>
-            <li><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-            <li><a href="https://www.youtube.com" target="_blank"><i class="fab fa-youtube-square"></i></a></li>
-            <li><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com" target="_blank" aria-label="facebook" title="Facebook"><i
+                        class="fab fa-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank" aria-label="twitter" title="Twitter"><i
+                        class="fab fa-twitter-square"></i></a></li>
+            <li><a href="https://www.youtube.com" target="_blank" aria-label="youtube" title="Youtube"><i
+                        class="fab fa-youtube-square"></i></a></li>
+            <li><a href="https://www.instagram.com" target="_blank" aria-label="instagram" title="Instagram"><i
+                        class="fab fa-instagram"></i></a></li>
         </ul>
     </div>
+
 
 </body>
 
