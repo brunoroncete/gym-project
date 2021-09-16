@@ -4,6 +4,8 @@
 
 This comprehensive site is designed for a fictional gym (Fitness Tribe). The focus of the site is to provide information about the services the gym offers and attract more customers.
 
+
+
 ## UX
 
 The purpose is to design an attractive website to the customers of the gym, with a simple and intuitive layout that works on mobiles, tablets or desktops.
@@ -83,7 +85,7 @@ The home page is divided in two rows, one with the logo and a background and ano
 
 ![Cards Classes](../gym-project/assets/images/cardsclasses.png)
 
-- Mobile Cards 
+- Mobile Carousel 
 
 ![Cards Classes](../gym-project/assets/images/cardsmobile.png)
 
@@ -174,7 +176,7 @@ The Join Now page presents a form that the user can submit to book an appointmen
 
 - Social Media Links
 1. When each link is clicked it opens a new tab.
-2. When When each link is clicked it takes the user to the correct page.
+2. When each link is clicked it takes the user to the correct page.
 
 - Forms
 1. When submitted the form link to the correct place.
@@ -206,6 +208,60 @@ joinnow.html
 - W3C CSS Validator 
 
 ![Markup CSS](../gym-project/assets/images/validcss.png)
+
+
+## Deployment
+
+This project was developed using Visual Studio Code Insiders, committed to git and pushed to GitHub using git bash terminal.
+
+### Deploying on GitHub pages
+
+1. Log in to GitHub and navigate to the GitHub Repository.
+2. At the top of the repository, select "Settings" from the menu items.
+3. At the Settings menu, select "Pages".
+4. Select the main branch and the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://brunoroncete.github.io/gym-project/
+
+### Forking the GitHub Repository
+
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps.
+
+1. Log in to GitHub and locate the GitHub Repository
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the GitHub Repository
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step 3.
+7. Press Enter. Your local clone will be created.
+
+## Credits
+
+### Code
+
+- Bootstrap v 5.1.0: Bootstrap was used throughtout the project mainly the buttons, cards and carousel.
+- Google Maps Help: [This](https://support.google.com/maps/answer/144361?co=GENIE.Platform%3DDesktop&hl=en) Google Maps Help explained how to embed the map into the html code.
+- FontAwesome: The icons in the footer were taken from Font Awesome.
+
+### Media
+
+- All images were sourced from [Unsplash](https://unsplash.com/) or [Pexels](https://www.pexels.com/).
+- [Canva](https://www.canva.com/) were used to make the logo.
+
+### Acknowledgements
+
+- Student care and fellow students at Code Institute for their support.
+- I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
+
+[Back to top ⇧](# TRIBO-FITNESS)
+
+
 
 
 

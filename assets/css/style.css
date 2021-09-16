@@ -13,7 +13,6 @@ header {
     background: #0000006e;
     position: sticky;
     top: 0px;
-
 }
 
 #logo {
@@ -23,7 +22,6 @@ header {
     font-family: "Oswald";
     letter-spacing: 2px;
     color: #fff;
-
 }
 
 .menu ul {
@@ -38,8 +36,6 @@ header {
     font-weight: 300;
     font-family: "Barlow";
     letter-spacing: 2px;
-
-
 }
 
 .menu {
@@ -78,8 +74,6 @@ header {
     height: 450px;
     width: 100%;
     overflow: hidden;
-
-
 }
 
 
@@ -89,7 +83,6 @@ header {
     background: url("../images/bglogo.jpg") no-repeat center center;
     border-top: 2px solid #fff;
     border-bottom: 2px solid #fff;
-
 }
 
 
@@ -99,7 +92,6 @@ header {
     margin-right: auto;
     max-width: 500px;
     max-height: 400px;
-
 }
 
 
@@ -117,7 +109,6 @@ header {
     width: 100%;
     justify-content: space-around;
     flex-direction: row;
-
 }
 
 
@@ -137,10 +128,8 @@ header {
 }
 
 .footer-1 {
-
     margin-top: 20px;
     height: 150px;
-
 }
 
 .footer-1 a {
@@ -150,17 +139,14 @@ header {
 }
 
 .footer-2 {
-
     margin-top: 20px;
 }
 
 .button-sub {
     padding: 15px;
-
 }
 
 .footer-3 {
-
     margin-top: 20px;
 }
 
@@ -176,16 +162,13 @@ header {
 /*--------- Social media */
 
 .social-media li {
-
     text-align: center;
     font-size: 36px;
-
 }
 
 .social-media a {
     color: #fff;
     padding: 10px;
-
 }
 
 .social-media {
@@ -195,8 +178,6 @@ header {
     margin: auto;
     padding: 15px;
     justify-content: space-between;
-
-
 }
 
 .sm-area {
@@ -212,7 +193,6 @@ header {
     justify-content: space-around;
     padding: 0px 30px 50px 30px;
     justify-content: center;
-
 }
 
 .card-body {
@@ -252,7 +232,6 @@ header {
 .titleprice .pricetxt a {
     text-decoration: none;
     color: black;
-
 }
 
 .pricetxt {
@@ -286,13 +265,11 @@ header {
 
 @media only screen and (max-width: 923px) {
 
-
     .dropdown {
         display: block;
         position: absolute;
         top: 20px;
         right: 20px;
-
     }
 
     .dropdown .dropdown-item {
@@ -306,7 +283,6 @@ header {
     #gym-banner {
         height: 350px;
         width: 100%;
-
     }
 
     #footer-container {
@@ -319,8 +295,6 @@ header {
         justify-content: space-around;
         flex-direction: column;
         align-items: center;
-
-
     }
 
 
@@ -342,8 +316,6 @@ header {
         height: 400px;
         width: 100%;
         overflow: hidden;
-
-
     }
 
     .footer-heading {
@@ -362,7 +334,6 @@ header {
         align-items: center;
         display: flex;
         flex-direction: column;
-
     }
 
     .timetable .classdesc {
@@ -370,7 +341,6 @@ header {
         flex-direction: column;
         padding: 15px;
         margin: 20px;
-
     }
 
 
@@ -378,7 +348,6 @@ header {
     .timetable .classbt {
         display: flex;
         flex-direction: row;
-
     }
 
     .timetable .classbt a {
@@ -397,12 +366,10 @@ header {
 
 @media only screen and (max-width: 450px) {
 
-
     .social-media li {
 
         text-align: center;
         font-size: 24px;
-
     }
 
     .sm-area {
@@ -419,7 +386,6 @@ header {
     .footer-heading .map {
         width: inherit;
         height: inherit;
-
     }
 
     .map iframe {
@@ -446,7 +412,6 @@ header {
         align-content: center;
         padding: 15px;
         margin: 20px;
-
     }
 
     .titleprice {
@@ -476,10 +441,8 @@ header {
 }
 
 #card-classes .cardclass {
-
     height: 680px;
     min-width: 200px;
-
 }
 
 #card-classes .card-body p {
@@ -501,19 +464,12 @@ header {
 .timetable {
     background: #fff;
     padding-top: 50px;
-
 }
 
 .timetable h2 {
     display: flex;
     justify-content: center;
 }
-
-
-
-
-
-
 
 /*----- Join us */
 .join-us {
@@ -536,13 +492,10 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-
 }
 
 .join-us .jointext h1 {
     text-align: center;
-
 }
 
 .join-us .jointext {
@@ -566,7 +519,6 @@ header {
 
 .join-us .jointext a {
     text-decoration: none;
-
 }
 
 .user-details {
@@ -585,7 +537,6 @@ header {
     margin-top: 50px;
     justify-content: center;
     color: #fff;
-
 }
 
 .forminput {
@@ -607,6 +558,4 @@ header {
 
 .forminput button {
     margin: 20px 30%;
-
-
 }
