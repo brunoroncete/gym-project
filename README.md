@@ -1,6 +1,6 @@
 # TRIBO FITNESS
 
-![Mockup](../gym-project/assets/images/mockup.png)
+![Mockup](assets/images/mockup.png)
 
 This comprehensive site is designed for a fictional gym (Fitness Tribe). The focus of the site is to provide information about the services the gym offers and attract more customers.
 
@@ -42,12 +42,12 @@ The purpose is to design an attractive website to the customers of the gym, with
 
 - Desktop Navbar
 
-![Navbar](../gym-project/assets/images/navbar1.png)
-![Navbar](../gym-project/assets/images/navbar2.png)
+![Navbar](assets/images/navbar1.png)
+![Navbar](assets/images/navbar2.png)
 
 - Mobile Navbar
 
-![Navbar](../gym-project/assets/images/navbarmobile.png)
+![Navbar](assets/images/navbarmobile.png)
 
 
 The sticky navigation bar contain links to the Logo, Home page, Classes and Join Now page and is identical in each page to allow for easy navigation.
@@ -58,24 +58,24 @@ The navbar change when in small screen, showing a dropdown menu instead of three
 
 - Desktop Footer
 
-![Footer Desktop](../gym-project/assets/images/footer.png)
+![Footer Desktop](assets/images/footer.png)
 
 
 
 - Mobile Footer
 
-![Footer Mobile](../gym-project/assets/images/footermobil.png)
+![Footer Mobile](assets/images/footermobil.png)
 
 The footer provides the user four sections, with contact information, a sugestions box, the address with an interactive map, and links to the social media accounts (Facebook, instagram, youtube and twitter).
 
 ### Home Page
 - Logo
 
-![Logo](../gym-project/assets/images/siteindexlogo.png)
+![Logo](assets/images/siteindexlogo.png)
 
 - Membership Cards
 
-![Cards Membership](../gym-project/assets/images/siteindex1.png)
+![Cards Membership](assets/images/siteindex1.png)
 
 The home page is divided in two rows, one with the logo and a background and another with a join now buttow and cards showing the membership prices.
 
@@ -83,19 +83,19 @@ The home page is divided in two rows, one with the logo and a background and ano
 
 - Desktop Cards
 
-![Cards Classes](../gym-project/assets/images/cardsclasses.png)
+![Cards Classes](assets/images/cardsclasses.png)
 
 - Mobile Carousel 
 
-![Cards Classes](../gym-project/assets/images/cardsmobile.png)
+![Cards Classes](assets/images/cardsmobile.png)
 
 - Desktop Classes Description
 
-![Cards Classes](../gym-project/assets/images/classesdescription.png)
+![Cards Classes](assets/images/classesdescription.png)
 
 - Mobile Classes Description
 
-![Cards Classes](../gym-project/assets/images/classesdescmobi.png)
+![Cards Classes](assets/images/classesdescmobi.png)
 
 The classes page is divided also in two rows, one with the cards showing the time where the gym has the classes, when in small screens, I used the "overflow-x: scroll" so the customer can see all the cards. The second row is the description of the classes, where I used bootstrap to design buttons that shows the text when active.
 
@@ -103,7 +103,7 @@ The classes page is divided also in two rows, one with the cards showing the tim
 
 - Desktop Form
 
-![Cards Classes](../gym-project/assets/images/joinusform.png)
+![Cards Classes](assets/images/joinusform.png)
 
 The Join Now page presents a form that the user can submit to book an appointment.
 
@@ -112,25 +112,25 @@ The Join Now page presents a form that the user can submit to book an appointmen
 ## Wireframes
 
 ### index.html
-1. [Desktop index.html](../gym-project/wireframe/desktop.pdf)
+1. [Desktop index.html](wireframe/desktop.pdf)
 
-2. [Mobile index.html](../gym-project/wireframe/smartphone.pdf)
+2. [Mobile index.html](wireframe/smartphone.pdf)
 
-3. [Tablet index.html](../gym-project/wireframe/tablet.pdf)
+3. [Tablet index.html](wireframe/tablet.pdf)
 
 ### classes.html
-1. [Desktop classes.html](../gym-project/wireframe/desktopclasses.pdf)
+1. [Desktop classes.html](wireframe/desktopclasses.pdf)
 
-2. [Tablet classes.html](../gym-project/wireframe/tabletclasses.pdf)
+2. [Tablet classes.html](wireframe/tabletclasses.pdf)
 
-3. [Mobile classes.html](../gym-project/wireframe/mobileclasses.pdf)
+3. [Mobile classes.html](wireframe/mobileclasses.pdf)
 
 ### joinnow.html
-1. [Desktop joinnow.html](../gym-project/wireframe/desktopjoinnow.pdf)
+1. [Desktop joinnow.html](wireframe/desktopjoinnow.pdf)
 
-2. [Tablet joinnow.html](../gym-project/wireframe/tabletjoin.pdf)
+2. [Tablet joinnow.html](wireframe/tabletjoin.pdf)
 
-3. [Tablet joinnow.html](../gym-project/wireframe/mobilejoin.pdf)
+3. [Tablet joinnow.html](gym-project/wireframe/mobilejoin.pdf)
 
 
 
@@ -181,33 +181,33 @@ The Join Now page presents a form that the user can submit to book an appointmen
 - Forms
 1. When submitted the form link to the correct place.
 
-![Valid Form](../gym-project/assets/images/validform.png)
+![Valid Form](assets/images/validform.png)
 
 ### Final Testing 
 
 - Lighthouse
 
-![Lighthouse](../gym-project/assets/images/Lighthousetest.png)
+![Lighthouse](assets/images/Lighthousetest.png)
 
 - W3C Markup Validator
 
 index.html
 
-![Markup Index](../gym-project/assets/images/validindex.png)
+![Markup Index](assets/images/validindex.png)
 
 classes.html 
 
-![Markup Classes](../gym-project/assets/images/validclasses.png)
+![Markup Classes](assets/images/validclasses.png)
 
 joinnow.html
 
-![Markup JoinNow](../gym-project/assets/images/validjoin.png)
+![Markup JoinNow](assets/images/validjoin.png)
 
 
 
 - W3C CSS Validator 
 
-![Markup CSS](../gym-project/assets/images/validcss.png)
+![Markup CSS](assets/images/validcss.png)
 
 
 ## Deployment
@@ -259,7 +259,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 - Student care and fellow students at Code Institute for their support.
 - I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
 
-[Back to top ⇧](# TRIBO-FITNESS)
+
 
 
 
