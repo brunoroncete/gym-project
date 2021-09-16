@@ -34,7 +34,7 @@ The purpose is to design an attractive website to the customers of the gym, with
 
 ### Typography
 
-- The Oswald font is used throughout the website with Sans Serif.+
+- The Oswald font is used throughout the website with Sans Serif.
 
 ## Existing Features
 
@@ -187,7 +187,7 @@ The Join Now page presents a form that the user can submit to book an appointmen
 
 - Lighthouse
 
-![Lighthouse](assets/images/Lighthousetest.png)
+![Lighthouse](assets/images/lighthousetest.png)
 
 - W3C Markup Validator
 
