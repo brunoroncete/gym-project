@@ -4,28 +4,22 @@
 
 This comprehensive site is designed for a fictional gym (Fitness Tribe). The focus of the site is to provide information about the services the gym offers and attract more customers.
 
-
-
 ## UX
 
 The purpose is to design an attractive website to the customers of the gym, with a simple and intuitive layout that works on mobiles, tablets or desktops.
 
 ## User Stories
 ### First Time Visitor Goals
-
-- As a first time visitor, I want to easily see if the gym offers the service that I am looking for.
-- As a first time visitor, I want to find information about the classes that the gym offers.
-- As a fisrt time visitor, I want to find out the cost of the services provided.
+1. As a first time visitor, I want to easily see if the gym offers the service that I am looking for.
+2. As a first time visitor, I want to find information about the classes that the gym offers.
+3. As a fisrt time visitor, I want to find out the cost of the services provided.
 
 ### Returning Visitor Goals
-- As a Returning Visitor, I want to find the best way to contact the gym.
-- As a Returning Visitor, I want to be able to access your social media accounts.
+1. As a Returning Visitor, I want to find the best way to contact the gym.
+2. As a Returning Visitor, I want to be able to access your social media accounts.
 
 ### Frequent User Goals
-- As a Frequent User, I want to be able to book my classes.
-- As a Frequent User I want to be able to check the status of my membership.
-
-
+1. As a Frequent User, I want to be able to book my classes.
 
 ## Design
 ### Colour Scheme
@@ -60,8 +54,6 @@ The navbar change when in small screen, showing a dropdown menu instead of three
 
 ![Footer Desktop](assets/images/footer.png)
 
-
-
 - Mobile Footer
 
 ![Footer Mobile](assets/images/footermobil.png)
@@ -75,7 +67,7 @@ The footer provides the user four sections, with contact information, a sugestio
 
 - Membership Cards
 
-![Cards Membership](assets/images/siteindex1.png)
+![Cards Membership](assets/images/siteindex.png)
 
 The home page is divided in two rows, one with the logo and a background and another with a join now buttow and cards showing the membership prices.
 
@@ -85,7 +77,7 @@ The home page is divided in two rows, one with the logo and a background and ano
 
 ![Cards Classes](assets/images/cardsclasses.png)
 
-- Mobile Carousel 
+- Mobile Cards 
 
 ![Cards Classes](assets/images/cardsmobile.png)
 
@@ -185,9 +177,7 @@ The Join Now page presents a form that the user can submit to book an appointmen
 
 ### Final Testing 
 
-- Lighthouse
-
-![Lighthouse](assets/images/lighthousetest.png)
+The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 
 - W3C Markup Validator
 
@@ -203,12 +193,61 @@ joinnow.html
 
 ![Markup JoinNow](assets/images/validjoin.png)
 
-
-
 - W3C CSS Validator 
 
 ![Markup CSS](assets/images/validcss.png)
 
+
+- Lighthouse
+
+![Lighthouse](assets/images/lighthousetest.png)
+
+I used the Lighthouse on Google Developer Tools to check the Perfomance, Accessibility, Best Practices and SEO of the website.
+
+- PowerMapper 
+
+![PowerMapper](assets/images/powermappertest.png)
+
+PowerMapper were used to double-check the browser compatibility.
+## Testing User Stories from User Experience (UX) Section
+### First Time Visitor Goals
+1. As a first time visitor, I want to easily see if the gym offers the service that I am looking for.
+    - At the nav bar on top of the site contains a link to the page classes.
+    - The page classes contain all the classes offered by the gym.
+
+2. As a first time visitor, I want to find information about the classes that the gym offers.
+   - At the page classes.html the customer have access to the timetable and the description of the classes.
+
+3. As a fisrt time visitor, I want to find out the cost of the services provided.
+    - At the index.html the customer have acces to a section with the prices of the memberships.
+
+![Prices](assets/images/prices.png)
+
+### Returning Visitor Goals
+1. As a Returning Visitor, I want to find the best way to contact the gym.
+    - At the footer the user has access to the contact information and a text area where is possible to contact the gym.
+
+![Contact Information](assets/images/contact.png)
+
+2. As a Returning Visitor, I want to be able to access your social media accounts.
+    - The footer presents icons with links to the social medias.
+    - Each link opens the social media in a new page.
+
+  ![Social Media](assets/images/socialmedia.png)  
+
+### Frequent User Goals
+1. As a Frequent User, I want to be able to book my classes.
+    - At the classes.html page the user can find the Book Now buttons that opens the form to book an appointment.
+
+![Book Classes](assets/images/bookclass.png)  
+
+## Issues
+- The form in the joinnow.html page wasn't working, I asked for help at Slack and the community pointed that my code was missing id's and names, the issue was fixed after adding that.
+- The buttons at the classes.html page cards weren't aligning, after asking for help at Slack, a mentor suggested adding height, after adding the code .card-body p {    min-height: 140px;}, the issue was fixed.
+
+## Known Bugs
+
+- The nav bar on small screen's scrolls with the rest of the page when the dropdown menu is active.
 
 ## Deployment
 
