@@ -175,7 +175,7 @@ The Join Now page presents a form that the user can submit to book an appointmen
 
 ![Valid Form](assets/images/validform.png)
 
-### Final Testing 
+### Code Validation
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate the project to ensure there were no syntax errors in the project.
 
@@ -241,11 +241,11 @@ PowerMapper were used to double-check the browser compatibility.
 
 ![Book Classes](assets/images/bookclass.png)  
 
-## Issues
+### Issues
 - The form in the joinnow.html page wasn't working, I asked for help at Slack and the community pointed that my code was missing id's and names, the issue was fixed after adding that.
 - The buttons at the classes.html page cards weren't aligning, after asking for help at Slack, a mentor suggested adding height, after adding the code .card-body p {    min-height: 140px;}, the issue was fixed.
 
-## Known Bugs
+### Known Bugs
 
 - The nav bar on small screen's scrolls with the rest of the page when the dropdown menu is active.
 

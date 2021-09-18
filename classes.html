@@ -19,6 +19,7 @@
 </head>
 
 <body class="bg-dark bg-gradient">
+    <!-- ===== Logo ==== -->
     <header>
         <a href="index.html">
             <h1 class="text-uppercase" id="logo">
@@ -26,7 +27,7 @@
             </h1>
         </a>
         <nav>
-
+            <!-- ==== Dropdown menu for small screens -->
             <div class="dropdown">
                 <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
                     data-bs-toggle="dropdown" aria-expanded="false">
@@ -75,8 +76,7 @@
         </nav>
 
     </header>
-
-
+    <!-- ==== Cards with the timetable of the classes -->
     <div id="card-classes">
 
         <div class="card cardclass" style="width: 18rem;">
@@ -178,12 +178,12 @@
             </div>
         </div>
     </div>
-
+    <!-- ========= Menu with classes description -->
     <div class="timetable">
         <h2>Classes Description</h2>
         <br>
         <div class="row classdesc">
-            <div class="col-2">
+            <div class="col-sm-12 col-lg-2">
                 <div class="list-group  classbt" id="list-tab" role="tablist">
                     <a class="list-group-item list-group-item-action bg-warning active" id="list-home-list"
                         data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Martial
@@ -191,7 +191,7 @@
                     <a class="list-group-item list-group-item-action bg-warning" id="list-profile-list"
                         data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Dance</a>
                     <a class="list-group-item list-group-item-action bg-warning" id="list-messages-list"
-                        data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Strenght
+                        data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Strength
                         Training</a>
                     <a class="list-group-item list-group-item-action bg-warning" id="list-settings-list"
                         data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Other</a>
@@ -242,7 +242,7 @@
             </div>
         </div>
     </div>
-
+    <!--============= Footer =========== -->
     <footer>
         <div id="footer-container">
 
@@ -250,20 +250,20 @@
             <div class="footer-heading footer-1">
                 <h2><strong>Contact Information</strong></h2>
                 <p><i class="fas fa-phone-square-alt"></i> +44 555 123 456</p>
-                <a href="mailto:join-us@tribofitness.co.uk"><i class="fas fa-envelope"></i>
+                <a href="mailto:join-us@tribofitness.co.uk" target="_blank"><i class="fas fa-envelope"></i>
                     join-us@tribofitness.co.uk</a>
             </div>
 
 
             <div class="footer-heading footer-2">
                 <h2><strong>Do you have any sugestions?</strong></h2>
-                <form action="https://formdump.codeinstitute.net/" method="post">
+                <form action="/">
                     <textarea rows="3" name="sugestions" id="sugestions" class="form-control" placeholder="Tell us here"
                         required></textarea>
                     <div class="form-row text-center">
 
                         <div class="button-sub">
-                            <button type="button" class="btn btn-warning">Submit</button>
+                            <button type="submit" class="btn btn-warning">Submit</button>
 
                         </div>
                     </div>
@@ -285,6 +285,7 @@
         </div>
 
     </footer>
+    <!--========== Social Media links ========= -->
     <div class="sm-area">
         <ul class="social-media list-inline">
             <li><a href="https://www.facebook.com" target="_blank" aria-label="facebook" title="Facebook"
@@ -297,8 +298,6 @@
                     rel="noopener"><i class="fab fa-instagram"></i></a></li>
         </ul>
     </div>
-
-
 </body>
 
 </html>

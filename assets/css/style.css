@@ -427,6 +427,10 @@ header {
         width: 120%;
         text-align: center
     }
+
+    .classbt {
+        align-items: center;
+    }
 }
 
 /*----------- Classes */
@@ -554,8 +558,13 @@ header {
 .forminput span {
     font-size: 14px;
     padding: 6px;
+    margin-top: 10px;
 }
 
 .forminput button {
     margin: 20px 30%;
+}
+
+.gender span {
+    margin-top: 10px;
 }
