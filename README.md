@@ -2,7 +2,11 @@
 
 ![Mockup](assets/images/mockup.png)
 
-This comprehensive site is designed for a fictional gym (Fitness Tribe). The focus of the site is to provide information about the services the gym offers and attract more customers.
+This comprehensive site was designed for a fictional gym (Tribo Fitness). The focus of the site is to provide information about the services the gym offers and attract more customers.
+
+This is the first of four Milestone Projects that the developer must complete during the Full Stack Web Development Program at The Code Institute.
+
+The main requirements were to make a responsive and static website with a minimum of three pages using primarily HTML5 and CSS3.
 
 ## UX
 
@@ -24,11 +28,35 @@ The purpose is to design an attractive website to the customers of the gym, with
 ## Design
 ### Colour Scheme
 
-- The main colours used are white, black, grey and yellow, to give the site a clean, modern, professional look.
+- The main colours used are white, black, grey and yellow, to give the site a clean, modern and professional look.
 
 ### Typography
 
 - The Oswald font is used throughout the website with Sans Serif.
+
+
+### Wireframes
+
+#### index.html
+1. [Desktop index.html](wireframe/desktop.pdf)
+
+2. [Mobile index.html](wireframe/smartphone.pdf)
+
+3. [Tablet index.html](wireframe/tablet.pdf)
+
+#### classes.html
+1. [Desktop classes.html](wireframe/desktopclasses.pdf)
+
+2. [Tablet classes.html](wireframe/tabletclasses.pdf)
+
+3. [Mobile classes.html](wireframe/mobileclasses.pdf)
+
+#### joinnow.html
+1. [Desktop joinnow.html](wireframe/desktopjoinnow.pdf)
+
+2. [Tablet joinnow.html](wireframe/tabletjoin.pdf)
+
+3. [Tablet joinnow.html](gym-project/wireframe/mobilejoin.pdf)
 
 ## Existing Features
 
@@ -43,10 +71,9 @@ The purpose is to design an attractive website to the customers of the gym, with
 
 ![Navbar](assets/images/navbarmobile.png)
 
-
-The sticky navigation bar contain links to the Logo, Home page, Classes and Join Now page and is identical in each page to allow for easy navigation.
-This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
-The navbar change when in small screen, showing a dropdown menu instead of three buttons.
+The sticky navigation bar contains links to the Logo, Home page, Classes and Join Now page are identical in each page for an easy navigation.
+This section will allow the user to have an easier navigation from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+The navbar changes when in small screen, showing a dropdown menu instead of three buttons.
 
 ### Footer
 
@@ -69,7 +96,7 @@ The footer provides the user four sections, with contact information, a sugestio
 
 ![Cards Membership](assets/images/siteindex.png)
 
-The home page is divided in two rows, one with the logo and a background and another with a join now buttow and cards showing the membership prices.
+The home page is divided into two rows, one with the logo and a background and another with a join now button and cards showing the membership prices.
 
 ### Classes Page
 
@@ -98,54 +125,30 @@ The classes page is divided also in two rows, one with the cards showing the tim
 ![Cards Classes](assets/images/joinusform.png)
 
 The Join Now page presents a form that the user can submit to book an appointment.
+## Features to Implement in the future 
 
-
-
-## Wireframes
-
-### index.html
-1. [Desktop index.html](wireframe/desktop.pdf)
-
-2. [Mobile index.html](wireframe/smartphone.pdf)
-
-3. [Tablet index.html](wireframe/tablet.pdf)
-
-### classes.html
-1. [Desktop classes.html](wireframe/desktopclasses.pdf)
-
-2. [Tablet classes.html](wireframe/tabletclasses.pdf)
-
-3. [Mobile classes.html](wireframe/mobileclasses.pdf)
-
-### joinnow.html
-1. [Desktop joinnow.html](wireframe/desktopjoinnow.pdf)
-
-2. [Tablet joinnow.html](wireframe/tabletjoin.pdf)
-
-3. [Tablet joinnow.html](gym-project/wireframe/mobilejoin.pdf)
-
-
+- A Log In page - The user will be able to create an account to log in and check the membership status and pay for it.
 
 ## Frameworks, Languages & Programs Used
 
-### VSCode
+### [VSCode](https://code.visualstudio.com/)
 - This developer used VSCode for their IDE while building the website.
 
-### BootstrapCDN
+### [BootstrapCDN](https://www.bootstrapcdn.com/)
 - The project uses Bootstrap v 5.1.0 to simplify the structure of the website.
 - The project also uses BootstrapCDN to provide icons from FontAwesome.
 
-### Popper.js
+### [Popper.js](https://popper.js.org/)
 - The project uses Popper,js reference Javascript needed for the responsive navbar.
 
-### Google Fonts
+### [Google Fonts](https://fonts.google.com/)
 - The project uses Google fonts to style the website fonts.
 
-### Canva
+### [Canva](https://www.canva.com/)
 - The project uses Canva image editor to create the logo.
 
-### Balsamiq 
-- The project uses Balsamiq to create the wireframe mockups
+### [Balsamiq](https://balsamiq.com/) 
+- The project uses Balsamiq to create the wireframe mockups.
 
 ### HTML 5 
 - Markup language designed to be displayed in a web browser.
@@ -163,12 +166,12 @@ The Join Now page presents a form that the user can submit to book an appointmen
 
 - Navigation Bar
 
-1. When the company name is clicked it returns the user to the index.html from all pages.
-2. When each link on the navbar is clicked it takes the user to the correct page.
+1. When the company name is clicked, it returns the user to the index.html from all pages.
+2. When each link on the navbar is clicked, it takes the user to the correct page.
 
 - Social Media Links
-1. When each link is clicked it opens a new tab.
-2. When each link is clicked it takes the user to the correct page.
+1. When each link is clicked, it opens a new tab.
+2. When each link is clicked, it takes the user to the correct page.
 
 - Forms
 1. When submitted the form link to the correct place.
@@ -208,18 +211,18 @@ I used the Lighthouse on Google Developer Tools to check the Perfomance, Accessi
 
 ![PowerMapper](assets/images/powermappertest.png)
 
-PowerMapper were used to double-check the browser compatibility.
+PowerMapper was used to double-check the browser compatibility.
 ## Testing User Stories from User Experience (UX) Section
 ### First Time Visitor Goals
 1. As a first time visitor, I want to easily see if the gym offers the service that I am looking for.
     - At the nav bar on top of the site contains a link to the page classes.
-    - The page classes contain all the classes offered by the gym.
+    - The classes page contains all the classes offered by the gym.
 
 2. As a first time visitor, I want to find information about the classes that the gym offers.
-   - At the page classes.html the customer have access to the timetable and the description of the classes.
+   - At the page classes.html the customer has access to the timetable and the description of the classes.
 
 3. As a fisrt time visitor, I want to find out the cost of the services provided.
-    - At the index.html the customer have acces to a section with the prices of the memberships.
+    - At the index.html the customer has access to a section with the prices of the memberships.
 
 ![Prices](assets/images/prices.png)
 
